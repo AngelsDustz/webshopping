@@ -8,6 +8,9 @@
     <meta name="description" content="Opdracht voor school">
     <meta name="author" content="Johan Vlaar, Berwout Kruit, Klaasjan Oosterveld">
 
+    <!-- Jquery -->
+	<script src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/libs/jquery-1.11.2.min.js'?>> </script>
+
     <!-- Bootstrap JavaScript -->
     <script src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/libs/bootstrap.min.js'?>> </script>
     
