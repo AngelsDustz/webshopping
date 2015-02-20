@@ -1,0 +1,22 @@
+#admin-panel{
+	width: 				180px;
+	background-color: 	#F00;
+	text-align:  		center;
+}
+
+#admin-panel .button {
+	background-color: 	#0F0;
+}
+
+#admin-panel .button:hover {
+	background-color: 	#F0F;
+}
+
+#admin-panel .button .hover-button {
+	background-color: 	#00F;
+	text-align: 		left;
+}
+
+#admin-panel .button .hover-button:hover{
+	background-color: 	#F00;
+}
