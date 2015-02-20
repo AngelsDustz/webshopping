@@ -9,15 +9,15 @@
     <meta name="author" content="Johan Vlaar, Berwout Kruit, Klaasjan Oosterveld">
 
     <!-- Bootstrap JavaScript -->
-    <script src='/webshopping/libs/bootstrap.min.js' </script>
+    <script src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/libs/bootstrap.min.js'?>> </script>
     
     <!-- Custom JavaScript -->
 
 	<!-- Bootstrap CSS -->
-	<link href='/webshopping/css/bootstrap.min.css'			rel="stylesheet" media="screen">
+	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/css/bootstrap.min.css' ?>			rel="stylesheet" media="screen">
 
 	<!-- Custum CSS -->
-	<link href='/webshopping/css/main.css'          		rel="stylesheet" media="screen">
+	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/css/main.css' ?>           		rel="stylesheet" media="screen">
 
 	<!-- Custom Phone CSS -->
 	<!-- <link href="/webshopping/css/phone/main.css"           	rel="stylesheet" media="screen"> -->

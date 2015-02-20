@@ -1,5 +1,5 @@
 <html lang="nl">
-	<?php include('../resources/head.php'); ?>
+	<?php //include('../resources/head.php'); ?>
 
 	<body>
 		<div id="admin-panel">
