@@ -1,7 +1,5 @@
 <html lang="nl">
-	<head>
-		<title>Admin Paneel - Webshopping</title>
-	</head>
+	<?php include('../resources/head.php'); ?>
 
 	<body>
 		<div id="admin-panel">
