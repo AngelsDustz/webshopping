@@ -1,0 +1,20 @@
+Simpel 1 menu,
+linker kant.
+
+1 klik voor het collapsen van het hele menu.
+Dat laat dan opties zien en bij een hover laat hij de subsecties van de opties zien bijv.
+Users
++---- status
++---- ban
++---- etc.
+
+en als je dan op status, ban of etc. klik laat hij de functie zien.
+
+Welke knoppen moeten er minimaal in :
+
+- Producten
+-- Toevoegen
+-- Verwijderen
+
+- Gebruikers
+-- Informatie
