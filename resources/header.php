@@ -13,25 +13,10 @@
         case 'index':
             $index          = "linkActive";
             break;
-        
-        case 'uitgebreid-zoeken' :
-            $uitgebreider   = "linkActive";
-            break;
-
-        case 'cv' :
-            $plaatsCv       = "linkActive";
-            break;
-        case 'cvaanmaken' :
-            $cvaanmaken       = "linkActive";
-            $plaatsCv       = "linkActive";
-            break;
-        case 'cvuploaden' :
-            $cvuploaden       = "linkActive";
-            $plaatsCv       = "linkActive";
-            break;
     }
 
 ?>
+<nav class="navbar navbar-default" role="navigation">
 <div class="container">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -86,3 +71,4 @@
         </ul>
     </div><!--/.nav-collapse -->
 </div>
+</nav>

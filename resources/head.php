@@ -21,8 +21,9 @@
 
 	<!-- Custum CSS -->
 	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/css/main.css' ?>           		rel="stylesheet" media="screen">
+	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/css/font-awesome.min.css' ?>           		rel="stylesheet" media="screen">
 
-	<!-- Custom Phone CSS -->
+ 	<!-- Custom Phone CSS -->
 	<!-- <link href="/webshopping/css/phone/main.css"           	rel="stylesheet" media="screen"> -->
 
 </head>
