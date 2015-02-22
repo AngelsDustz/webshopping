@@ -2,9 +2,6 @@
 /*
 	Database,
 	hier komen alle database basis functies in.
-
-	dbConnect,
-	dbQuery
 */
 
 class db {
@@ -23,8 +20,27 @@ class db {
 		return new PDO($string, $user, $pass);
 	}
 
-	public function dbQuery(){
+	public function dbSelect($select, $from, $where = ''){
 		//
-		$datab = db::dbConnect();
+		$db = db::dbConnect();
+		$toExecute = "SELECT $select FROM $from";
+		if ($where != ""){
+			//
+			$toExecute .= " WHERE $where";
+		}
+
+		$statement = $db->prepare($toExecute);
+		$statement->execute();
+
+		return $statement->fetchAll();
+	}
+
+	public function dbQuery($query){
+		//
+		$db = db::dbConnect();
+		$statement = $db->prepare($query);
+		$statement->execute();
+
+		return $statement->fetchAll();
 	}
 }

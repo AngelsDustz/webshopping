@@ -1,5 +1,7 @@
 <?php
 
+include '../libs/database.php';
+
 /*
 	Admin Library,
 
@@ -20,11 +22,11 @@ class adminLib{
 		Description :
 			Voegt een nieuw product toe aan de database.
 	*/
-	public function productAdd($productID = -1, $productName){
+	public function productAdd($productID = -1, $productName, $productDesc, $productPrice){
 		//
 		if ($productID == -1){
 			//
-			$prodcutID = autoGenProductID(); //Als er geen ID mee is gegeven genereer de sleutel automatisch door middel van autoGenProductID
+			$productID = autoGenProductID(); //Als er geen ID mee is gegeven genereer de sleutel automatisch door middel van autoGenProductID
 		}
 	}
 
@@ -36,5 +38,7 @@ class adminLib{
 	*/
 	private function autoGenProductID(){
 		//
+		$IDs = db::dbQuery('SELECT idProducts FROM Products ORDER BY DESC LIMIT 1');
+		//To-do, test als statement werkt. Als het werkt kijk hoe de id heet en tel er 1 bij op en return dat nummer
 	}
 }
