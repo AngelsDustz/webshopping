@@ -1,4 +1,4 @@
 <?php
 include 'libs/auth.php';
 
-Auth::attempt('admin', 'admin');
+var_dump(db::select('*', 'Users'));
