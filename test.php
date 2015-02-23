@@ -1,5 +1,4 @@
 <?php
+include 'libs/auth.php';
 
-echo '<pre>';
-var_dump($_SERVER);
-echo '</pre>';
+Auth::attempt('admin', 'admin');

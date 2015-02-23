@@ -6,7 +6,7 @@
 
 class db {
 	//
-	private function dbConnect(){
+	private function connect(){
 		//
 		include_once '../config/database.php'; //Laad de configuratie van een extern bestand in $dbConfig
 		$type 	= $dbConfig['type'];
@@ -20,9 +20,9 @@ class db {
 		return new PDO($string, $user, $pass);
 	}
 
-	public function dbSelect($select, $from, $where = ''){
+	public function select($select, $from, $where = ''){
 		//
-		$db = db::dbConnect();
+		$db = db::connect();
 		$toExecute = "SELECT $select FROM $from";
 		if ($where != ""){
 			//
@@ -35,9 +35,9 @@ class db {
 		return $statement->fetchAll();
 	}
 
-	public function dbQuery($query){
+	public function query($query){
 		//
-		$db = db::dbConnect();
+		$db = db::connect();
 		$statement = $db->prepare($query);
 		$statement->execute();
 
