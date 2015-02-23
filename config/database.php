@@ -1,7 +1,7 @@
 <?php
 $dbConfig = [
 	'type' 		=> 'mysql',
-	'host' 		=> '192.168.1.100',
+	'host' 		=> '127.0.0.1',
 	'dbname' 	=> 'webshopping',
 	'user' 		=> 'webshopping',
 	'pass' 		=> 'Q13eV56',
