@@ -39,13 +39,9 @@ class db {
 	public function query($query){
 		//
 		$db = db::connect();
-		echo 'db : '.var_dump($db).'<br>';
 		$statement = $db->prepare($query);
-		echo 'statement : '.var_dump($statement).'<br>';
 		$statement->execute();
-		echo 'statement : '.var_dump($statement).'<br>';
 
-		echo 'fetch : '.var_dump($statement->fetchAll()).'<br>';
 		return $statement->fetchAll();
 	}
 }
