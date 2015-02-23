@@ -24,27 +24,28 @@ class db {
 	public function select($select, $from, $where = ''){
 		//
 		$db = db::connect();
-		echo 'db : '.var_dump($db).'<br>';
 		$toExecute = "SELECT $select FROM $from";
 		if ($where != ""){
 			//
 			$toExecute .= " WHERE $where";
 		}
-
 		$statement = $db->prepare($toExecute);
-		echo 'statement : '.var_dump($statement).'<br>';
 		$statement->execute();
 
-		echo 'fetch : '.var_dump($statement->fetchAll()).'<br>';
+
 		return $statement->fetchAll();
 	}
 
 	public function query($query){
 		//
 		$db = db::connect();
+		echo 'db : '.var_dump($db).'<br>';
 		$statement = $db->prepare($query);
+		echo 'statement : '.var_dump($statement).'<br>';
 		$statement->execute();
+		echo 'statement : '.var_dump($statement).'<br>';
 
+		echo 'fetch : '.var_dump($statement->fetchAll()).'<br>';
 		return $statement->fetchAll();
 	}
 }
