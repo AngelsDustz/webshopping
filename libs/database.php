@@ -16,7 +16,7 @@ class db {
 		$pass 	= $dbConfig['pass'];
 
 		unset($dbConfig);
-		$string = $type.':host='.$host.';dbname='.$dbname;
+		$string = 'mysql:host='.$host.';dbname='.$dbname;
 		return new PDO($string, $user, $pass);
 	}
 
