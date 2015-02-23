@@ -17,7 +17,8 @@ class db {
 		unset($dbConfig);
 
 		$string = $type.':host='.$host.';dbname='.$dbname;
-		return new PDO($string, $user, $pass);
+		$db = new PDO($string, $user, $pass);
+		return $db;
 	}
 
 	public function select($select, $from, $where = ''){
