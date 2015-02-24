@@ -7,9 +7,9 @@
 class db {
 	//
 	/*
-		Name : connect
-		Params : none
-		Description :
+		Name: connect
+		Params: none
+		Description:
 			Maakt een connectie met de database en returnd dit.
 			Deze function staat op private omdat ALLEEN de db class deze function mag aanroepen.
 	*/
@@ -29,9 +29,9 @@ class db {
 	}
 
 	/*
-		Name : select
-		Params : select, from, where, values
-		Description :
+		Name: select
+		Params: select, from, where, values
+		Description:
 			Een standaart select functie maar dan makkelijker gemaakt om te gebruiken.
 			Voorbeeld : SELECT * FROM Users WHERE id = 2;
 			Zou dan worden db::select('*', 'Users', 'id = :id', ['id' => 2])
@@ -59,9 +59,9 @@ class db {
 	}
 
 	/*
-		Name : query
-		Params : query, values
-		Description :
+		Name: query
+		Params: query, values
+		Description:
 			Een geadvanceerdere query command. Dit kun je gebruiken als je een specifieke query wilt runnen.
 			bijvoorbeeld INSERT INTO Users (Name) VALUES (:name), ['name' => 'bobby']
 			Gelieve deze functie zo min mogelijk te gebruiken!

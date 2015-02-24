@@ -13,7 +13,7 @@ class Auth {
 		Name: attempt
 		Params: username, password
 		Description:
-		Private function die daadwerkelijk de database check doet.
+			Private function die daadwerkelijk de database check doet.
 	*/
 	private function attempt($username, $password){
 		//
@@ -28,6 +28,12 @@ class Auth {
 		return $data[0]; //We geven de eerste resultaat terug. Er zou nooit meer dan 1 antwoord uit kunnen komen.
 	}
 
+	/*
+		Name: login
+		Params: username, password
+		Description:
+			Controlleert of de naam en wachtwoord juist zijn en loggen je dan in.
+	*/
 	public function login($username, $password){
 		//
 		$data = Auth::attempt($username, $password);
