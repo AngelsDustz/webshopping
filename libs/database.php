@@ -6,6 +6,13 @@
 
 class db {
 	//
+	/*
+		Name : connect
+		Params : none
+		Description :
+			Maakt een connectie met de database en returnd dit.
+			Deze function staat op private omdat ALLEEN de db class deze function mag aanroepen.
+	*/
 	private function connect(){
 		//
 		include_once './config/database.php'; //Laad de configuratie van een extern bestand in $dbConfig
@@ -21,6 +28,20 @@ class db {
 		return $db;
 	}
 
+	/*
+		Name : select
+		Params : select, from, where, values
+		Description :
+			Een standaart select functie maar dan makkelijker gemaakt om te gebruiken.
+			Voorbeeld : SELECT * FROM Users WHERE id = 2;
+			Zou dan worden db::select('*', 'Users', 'id = :id', ['id' => 2])
+			De eerste is wat je wilt selecteren.
+			De tweede waar je het vandaan wilt halen
+			En de derde parameter is de where functie. Deze en value zijn niet verplicht.
+			Als je gebruik maakt van where moet je de waarde in een beveiligde manier over brengen.
+			Door middel van values (array)
+			Je geeft een beveiligde waarde aan met :name en in de array roep je hem aan als name.
+	*/
 	public function select($select, $from, $where = '', $values = []){
 		//
 		$db = db::connect();
@@ -44,6 +65,12 @@ class db {
 		return $statement->fetchAll();
 	}
 
+	/*
+		Name : query
+		Params : query, values
+		Description :
+			stuff
+	*/
 	public function query($query, $values = []){
 		//
 		$db = db::connect();
@@ -55,7 +82,7 @@ class db {
 			//
 			$statement = $db->prepare($query);
 		}
-		
+
 		$statement->execute();
 
 		return $statement->fetchAll();
