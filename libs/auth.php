@@ -17,10 +17,13 @@ class Auth {
 	*/
 	public function attempt($username, $password){
 		//
-		$data = db::select('*', 'Users', "password = $password");
-		echo '<pre>';
-		var_dump($data);
-		echo '</pre>';
-		//To-do moet testen met database!!
+		$data = db::select('*', 'Users', "password = :password AND Name = :username",
+						['username' => $username, 'password' => $password]);
+		if (empty($data)){
+			//
+			return false; //Een foutief naam of wachtwoord.
+		}
+		
+		//Als we hier zijn weten we dat we data terug hebben gekregen.
 	}
 }

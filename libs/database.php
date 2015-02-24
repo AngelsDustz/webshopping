@@ -21,7 +21,7 @@ class db {
 		return $db;
 	}
 
-	public function select($select, $from, $where = ''){
+	public function select($select, $from, $where = '', $values = []){
 		//
 		$db = db::connect();
 		$toExecute = "SELECT $select FROM $from";
@@ -29,17 +29,33 @@ class db {
 			//
 			$toExecute .= " WHERE $where";
 		}
-		$statement = $db->prepare($toExecute);
+
+		if (!empty($values)){
+			//
+			$statement = $db->prepare($toExecute, $values);
+		} else {
+			//
+			$statement = $db->prepare($toExecute);
+		}
+
 		$statement->execute();
 
 
 		return $statement->fetchAll();
 	}
 
-	public function query($query){
+	public function query($query, $values = []){
 		//
 		$db = db::connect();
-		$statement = $db->prepare($query);
+
+		if (!empty($values)){
+			//
+			$statement = $db->prepare($query, $values);
+		} else {
+			//
+			$statement = $db->prepare($query);
+		}
+		
 		$statement->execute();
 
 		return $statement->fetchAll();
