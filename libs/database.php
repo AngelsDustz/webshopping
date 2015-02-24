@@ -69,7 +69,9 @@ class db {
 		Name : query
 		Params : query, values
 		Description :
-			stuff
+			Een geadvanceerdere query command. Dit kun je gebruiken als je een specifieke query wilt runnen.
+			bijvoorbeeld INSERT INTO Users (Name) VALUES (:name), ['name' => 'bobby']
+			Gelieve deze functie zo min mogelijk te gebruiken!
 	*/
 	public function query($query, $values = []){
 		//
