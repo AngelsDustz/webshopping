@@ -51,15 +51,8 @@ class db {
 			$toExecute .= " WHERE $where";
 		}
 
-		if (!empty($values)){
-			//
-			$statement = $db->prepare($toExecute, $values);
-		} else {
-			//
-			$statement = $db->prepare($toExecute);
-		}
-
-		$statement->execute();
+		$statement = $db->prepare($toExecute);
+		$statement->execute($values);
 
 
 		return $statement->fetchAll();
@@ -76,16 +69,8 @@ class db {
 	public function query($query, $values = []){
 		//
 		$db = db::connect();
-
-		if (!empty($values)){
-			//
-			$statement = $db->prepare($query, $values);
-		} else {
-			//
-			$statement = $db->prepare($query);
-		}
-
-		$statement->execute();
+		$statement = $db->prepare($query);
+		$statement->execute($values);
 
 		return $statement->fetchAll();
 	}
