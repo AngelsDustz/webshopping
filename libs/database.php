@@ -74,4 +74,22 @@ class db {
 
 		return $statement->fetchAll();
 	}
+
+	/*
+		Name: insert
+		Params: table, value, values
+		Description:
+			Een versimpelde insert statement.
+			table is de tabel waar je het in wilt toevoegen.
+			value zijn de values die je wilt toevoegen bijv. :user,:pass,:email
+			values is de beveiligde waardes.
+	*/
+	public function insert($table, $value, $values = []){
+		//
+		$db = db::connect();
+		$toExecute = "INSERT INTO $table VALUES ($value)";
+
+		$statement = $db->prepare($toExecute);
+		$statement->execute($values);
+	}
 }
