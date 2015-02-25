@@ -75,3 +75,6 @@
     </div><!--/.nav-collapse -->
 </div>
 </nav>
+<div class="foutmeldingen" style="display:none;">
+<!-- Hier komen foutieve login stuff -->
+</div>
