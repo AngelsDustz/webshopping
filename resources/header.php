@@ -70,7 +70,7 @@
                 </form>
             </ul>
             </li>
-            <li><a href="#">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a></li>
+            <li><a href="#" id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a></li>
         </ul>
     </div><!--/.nav-collapse -->
 </div>

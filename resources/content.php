@@ -11,7 +11,7 @@
   				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   			</div>
   			<div class="col-md-2">
-                <a href="/lisan/img/Cupcakebloem.jpg" id="animated-example" class="animated bounceInLeft thumbnail" >
+                <a href="/lisan/img/Cupcakebloem.jpg">
                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                         <div class="flipper">
                             <div class="front">
@@ -26,7 +26,7 @@
                 </a>
             </div>
             <div class="col-md-2">
-                <a href="/lisan/img/Cupcakebloem.jpg" id="animated-example" class="animated bounceInDown thumbnail" >
+                <a href="/lisan/img/Cupcakebloem.jpg"  >
                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                         <div class="flipper">
                             <div class="front">
@@ -41,7 +41,7 @@
                 </a>
             </div>
   			<div class="col-md-2">
-                <a href="/lisan/img/Cupcakebloem.jpg" id="animated-example" class="animated bounceInRight thumbnail" >
+                <a href="/lisan/img/Cupcakebloem.jpg"  >
                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                         <div class="flipper">
                             <div class="front">
@@ -70,7 +70,7 @@
         
         <div class="row">
         	<div class="col-md-2 col-md-offset-3">
-                <a href="/lisan/img/Cupcakebloem.jpg" id="animated-example" class="animated bounceInLeft thumbnail" >
+                <a href="/lisan/img/Cupcakebloem.jpg" >
                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                         <div class="flipper">
                             <div class="front">
@@ -85,7 +85,7 @@
                 </a>
             </div>
             <div class="col-md-2">
-                <a href="/lisan/img/Cupcakebloem.jpg" id="animated-example" class="animated bounceInDown thumbnail" >
+                <a href="/lisan/img/Cupcakebloem.jpg"  >
                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                         <div class="flipper">
                             <div class="front">
@@ -100,7 +100,7 @@
                 </a>
             </div>
   			<div class="col-md-2">
-                <a href="/lisan/img/Cupcakebloem.jpg" id="animated-example" class="animated bounceInRight thumbnail" >
+                <a href="/lisan/img/Cupcakebloem.jpg"  >
                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                         <div class="flipper">
                             <div class="front">
@@ -114,9 +114,11 @@
                     </div>
                 </a>
             </div>
-            <div class="row">
+        </div>
+
+        <div class="row">
         	<div class="col-md-2 col-md-offset-3">
-                <a href="/lisan/img/Cupcakebloem.jpg" id="animated-example" class="animated bounceInLeft thumbnail" >
+                <a href="/lisan/img/Cupcakebloem.jpg" >
                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                         <div class="flipper">
                             <div class="front">
@@ -131,7 +133,7 @@
                 </a>
             </div>
             <div class="col-md-2">
-                <a href="/lisan/img/Cupcakebloem.jpg" id="animated-example" class="animated bounceInDown thumbnail" >
+                <a href="/lisan/img/Cupcakebloem.jpg">
                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                         <div class="flipper">
                             <div class="front">
@@ -146,7 +148,7 @@
                 </a>
             </div>
   			<div class="col-md-2">
-                <a href="/lisan/img/Cupcakebloem.jpg" id="animated-example" class="animated bounceInRight thumbnail" >
+                <a href="/lisan/img/Cupcakebloem.jpg"  >
                     <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                         <div class="flipper">
                             <div class="front">
