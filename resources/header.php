@@ -25,16 +25,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand <?php echo $index; ?>" href="#"><img src="./img/logo.png" height="10px" width="10px">Webshopping</a>
+        <a class="navbar-brand <?php echo $index; ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/index.php'?> ><img src="./img/logo1.png" alt='Home' title='Home'></a>
     </div>
         
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <!-- Nav left -->
         </ul>
           
         <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+
+
             <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Login <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
@@ -68,6 +70,7 @@
                 </form>
             </ul>
             </li>
+            <li><a href="#">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a></li>
         </ul>
     </div><!--/.nav-collapse -->
 </div>

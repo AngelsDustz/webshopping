@@ -2,3 +2,15 @@
 .dropdown-menu {
 	width: 250px;
 }
+.navbar-header a {
+	padding: 0 15px;
+}
+nav .navbar-right li,
+nav .navbar-right a,
+nav .navbar-right img {
+	height: 50px;
+}
+ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
+	padding: 2px;
+	margin: 0 -100px 0 100px;
+}
