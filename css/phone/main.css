@@ -1,0 +1,8 @@
+nav .navbar-right li a {
+	padding: 0 150px;
+	border-bottom: 1px solid;
+	margin: 0px!important;
+}
+ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
+	padding: 0 87px;
+}
