@@ -39,10 +39,46 @@ class Auth {
 		$data = Auth::attempt($username, $password);
 		if ($data == false){
 			//
-			echo 'Het is niet gelukt om U in te loggen!<br>Controlleer U naam en wachtwoord en probeer opnieuw<br>';
+			$_SESSION['error']['Auth'] = 'Het is niet gelukt om in te loggen!<br>Controleer Uw naam en wachtwoord!<br>';
 		} else {
 			//
-			echo "Hallo $username, het is gelukt U in te loggen!<br>";
+			$_SESSION['Auth']['ID'] 		= $data['idUser'];
+			$_SESSION['Auth']['Username'] 	= $data['Name'];
+			$_SESSION['Auth']['Userlevel'] 	= $data['Userlevel'];
+			$_SESSION['Auth']['Email'] 		= $data['E-Mail'];
+			$_SESSION['Auth']['PaymentID'] 	= $data['Paymentid'];
+			header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');
+		}
+	}
+
+	/*
+		Name: logout
+		Params: none
+		Description:
+			Logd de gebruiker uit.
+	*/
+	public function logout(){
+		//
+		if (Auth::logged()){ //Met Auth::logged() kijken we of de gebruiker is ingelogd.
+			//
+			unset($_SESSION['Auth']);
+		}
+	}
+
+	/*
+		Name: logged
+		Params: none
+		Description:
+			Kijkt of de gebruiker is ingelogd.
+	*/
+	public function logged(){
+		//
+		if (!empty($_SESSION['Auth'])){
+			//
+			return true;
+		} else {
+			//
+			return false;
 		}
 	}
 }
