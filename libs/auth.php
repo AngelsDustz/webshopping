@@ -81,4 +81,26 @@ class Auth {
 			return false;
 		}
 	}
+
+	/*
+		Name: level
+		Params: int level
+		Description:
+			Controleert of de gebruiker het juiste $level of hoger heeft.
+	*/
+	public function level($level = 0){
+		//
+		if (!empty($_SESSION['Auth']['Userlevel'])){
+			$userlevel 	= $_SESSION['Auth']['Userlevel'];
+		} else {
+			$userlevel 	= -1;
+		}
+
+		if ($userlevel >= $level){
+			//
+			return true;
+		}
+
+		return false;
+	}
 }

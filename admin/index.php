@@ -1,6 +1,6 @@
 <?php
 
-if (/*User::hasAuth('admin')*/1){
+if (Auth::logged() && Auth::level(10)){
 	//
 	include('main.php');
 } else {
