@@ -2,10 +2,7 @@
 @session_start(); 
 
     $index          =   "link";
-    $uitgebreider   =   "link";
-    $plaatsCv       =   "link";
-    $cvaanmaken     =   "link";
-    $cvuploaden     =   "link";
+ 
 
     $menuLinks=basename($_SERVER['PHP_SELF'],".php");
 
@@ -16,7 +13,7 @@
     }
 
 ?>
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 <div class="container">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,7 +31,7 @@
         </ul>
           
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">About</a></li>
+            <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/contact.php'?>>Contact</a></li>
 
 
             <li class="dropdown">

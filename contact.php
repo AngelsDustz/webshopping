@@ -8,7 +8,7 @@
 <?php include 'resources/header.php'; ?>
 
     <div class="container content">
-        <?php include 'resources/content.php'; ?>
+        
     </div>
 
     

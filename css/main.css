@@ -10,6 +10,9 @@ nav .navbar-right a,
 nav .navbar-right img {
 	height: 50px;
 }
+ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
+		margin: -15px 0 0 0;
+	}
 @media (min-width:  1350px) { 
 	ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
 		padding: 2px;
@@ -23,6 +26,7 @@ nav .navbar-right img {
 /*Content*/
 .content {
 	min-height: 500px;
+	margin: 80px auto;
 }
 .sidebar-left {
 	position: absolute;
