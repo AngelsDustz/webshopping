@@ -1,2 +1,2 @@
 <?php
-include 'libs/auth.php';
+include('libs/auth.php');

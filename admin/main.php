@@ -10,20 +10,39 @@
 			<div class="button" onclick="showHover(this);">
 				Producten
 				<div class="hover-button" style="display: none;">
-					Toevoegen
+					<a href='?fn=pr-toevoegen'>Toevoegen</a>
 				</div>
 
 				<div class="hover-button" style="display: none;">
-					Verwijderen
+					<a href='?fn=pr-verwijderen'>Verwijderen</a>
 				</div>
 			</div>
 
 			<div class="button" onclick="showHover(this);">
 				Gebruikers
 				<div class="hover-button" style="display: none;">
-					Informatie
+					<a href='?fn=geb-informatie'>Informatie</a>
 				</div>
 			</div>
 		</div>
+
+		<?php
+			if (!empty($_GET)){
+				//
+				switch ($_GET['fn']) {
+					case 'pr-toevoegen':
+							include('producten/toevoegen.php');
+						break;
+
+					case 'pr-verwijderen':
+							include('producten/verwijderen.php');
+						break;
+
+					case 'geb-informatie':
+							include('gebruikers/informatie.php');
+						break;
+				}
+			}
+		?>
 	</body>
 </html>

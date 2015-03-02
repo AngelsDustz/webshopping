@@ -77,19 +77,20 @@ class db {
 
 	/*
 		Name: insert
-		Params: table, value, values
+		Params: 
 		Description:
-			Een versimpelde insert statement.
-			table is de tabel waar je het in wilt toevoegen.
-			value zijn de values die je wilt toevoegen bijv. :user,:pass,:email
-			values is de beveiligde waardes.
+			Simpele functie om iets toe te voegen.
+			Werkt als volgt
+			Eerste para is de tabel, dan waar je dingen wilt toevoegen
+			De :waarde gevolgt door de beveilidge waarde.
+			insert('Users', 'Username,Password', ':usrname,:passwrd', ['usrname'=>'admin', 'passwrd'=>'admin'])
 	*/
-	public function insert($table, $value, $values = []){
+	public function insert($table, $what, $values, $sec_value){
 		//
 		$db = db::connect();
-		$toExecute = "INSERT INTO $table VALUES ($value)";
+		$toExecute = "INSERT INTO $table ($what) VALUES ($values)";
 
 		$statement = $db->prepare($toExecute);
-		$statement->execute($values);
+		$statement->execute($sec_value);
 	}
 }

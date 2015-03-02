@@ -88,7 +88,7 @@ class Auth {
 		Description:
 			Controleert of de gebruiker het juiste $level of hoger heeft.
 	*/
-	public function level($level = 0){
+	public function level($level){
 		//
 		if (!empty($_SESSION['Auth']['Userlevel'])){
 			$userlevel 	= $_SESSION['Auth']['Userlevel'];
