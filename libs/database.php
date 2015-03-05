@@ -15,7 +15,7 @@ class db {
 	*/
 	private function connect(){
 		//
-		include_once './config/database.php'; //Laad de configuratie van een extern bestand in $dbConfig
+		include($_SERVER['DOCUMENT_ROOT'].'/webshopping/config/database.php'); //Laad de configuratie van een extern bestand in $dbConfig
 		$type 	= $dbConfig['type'];
 		$host 	= $dbConfig['host'];
 		$dbname = $dbConfig['dbname'];

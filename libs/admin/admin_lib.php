@@ -1,6 +1,6 @@
 <?php
 
-include '../libs/database.php';
+include_once($_SERVER['DOCUMENT_ROOT'].'/webshopping/libs/database.php');
 
 /*
 	Admin Library,
@@ -13,7 +13,7 @@ include '../libs/database.php';
 
 */
 
-class adminLib{
+class Admin{
 	//
 
 	/*
@@ -40,5 +40,63 @@ class adminLib{
 		//
 		$IDs = db::dbQuery('SELECT idProducts FROM Products ORDER BY DESC LIMIT 1');
 		//To-do, test als statement werkt. Als het werkt kijk hoe de id heet en tel er 1 bij op en return dat nummer
+	}
+
+	/*
+		Name : getUserData
+		Params : id
+		Description :
+			Haalt alle gegevens van een bepaalde gebruiker op.
+	*/
+	public function getUserData($id){
+		//
+		$data = db::select('*', 'Users', 'idUser = :idUser', ['idUser' => $id]);
+
+		if (!empty($data) || $data != false){
+			//
+			return $data[0];
+		} else {
+			//
+			return false;
+		}
+	}
+
+	public function getUserLevel($UserLevel){
+		//
+		$UserLevel = $UserLevel['Userlevel'];
+		$data = db::select('*', 'Userlevel', 'idUserlevel = :UserLevel', ['UserLevel' => $UserLevel]);
+
+		if (!empty($data) || $data != false){
+			//
+			return $data[0];
+		} else {
+			//
+			return false;
+		}
+	}
+
+	public function validID($id){
+		//
+		if (empty($id))
+			return false;
+
+		$data = db::select('*', 'Users', 'idUser = :idUser', ['idUser' => $id]);
+		if ($data == false)
+			return false;
+
+		return true;
+	}
+
+	public function getSingleData($id, $data){
+		//
+		if (!Admin::validID($id))
+			return false;
+
+		$data = db::select($data, 'Users', 'idUser = :idUser', ['idUser' => $id]);
+
+		if ($data == false)
+			return false;
+
+		return $data[0][0];
 	}
 }
