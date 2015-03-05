@@ -25,6 +25,6 @@
 
 
  	<!-- Custom Phone CSS -->
-<!-- 	<link href=<?php //echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/css/phone/main.css' ?>         	rel="stylesheet" media="screen">
- -->
+	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/css/phone/main.css' ?>  media='screen and (min-width: 320px) and (max-width: 450px)'        	rel="stylesheet" media="screen">
+
 </head>

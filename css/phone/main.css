@@ -6,3 +6,6 @@ nav .navbar-right li a {
 ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
 	padding: 0 87px;
 }
+div.col-lg-4:nth-child(3) > ul:nth-child(2) > iframe:nth-child(6) {
+	margin: 0 0 0 -40px;
+}
