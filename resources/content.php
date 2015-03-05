@@ -18,7 +18,7 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="/lisan/img/Cupcakebloem.jpg" class="thumbnail">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/resources/producten/geheugen.php' ?> class="thumbnail">
                         <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                             <div class="flipper">
                                 <div class="front">
@@ -36,7 +36,7 @@
                     
 
                     <div class="col-md-4">
-                        <a href="/lisan/img/Cupcakebloem.jpg"  class="thumbnail">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/product.php' ?>  class="thumbnail">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
                                     <div class="front">
@@ -51,54 +51,7 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="/lisan/img/Cupcakebloem.jpg"  class="thumbnail">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img src="./img/fff.png" alt="Koekjes als bloem figuur" style='height=100%'>
-                                        
-                                    </div>
-                                    <div class="back">
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <a href="/lisan/img/Cupcakebloem.jpg" class="thumbnail">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img src="./img/fff.png" alt="Koekjes als bloem figuur" style='height=100%'>
-                                        
-                                    </div>
-                                    <div class="back">
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="/lisan/img/Cupcakebloem.jpg"  class="thumbnail">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-                                <div class="flipper">
-                                    <div class="front">
-                                        <img src="./img/fff.png" alt="Koekjes als bloem figuur" style='height=100%'>
-                                        
-                                    </div>
-                                    <div class="back">
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="/lisan/img/Cupcakebloem.jpg"  class="thumbnail">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/product.php' ?>  class="thumbnail">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
                                     <div class="front">
@@ -115,7 +68,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="/lisan/img/Cupcakebloem.jpg" class="thumbnail">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/product.php' ?> class="thumbnail">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
                                     <div class="front">
@@ -130,7 +83,7 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="/lisan/img/Cupcakebloem.jpg" class="thumbnail">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/product.php' ?>  class="thumbnail">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
                                     <div class="front">
@@ -145,7 +98,54 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="/lisan/img/Cupcakebloem.jpg"  class="thumbnail">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/product.php' ?>  class="thumbnail">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="./img/fff.png" alt="Koekjes als bloem figuur" style='height=100%'>
+                                        
+                                    </div>
+                                    <div class="back">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/product.php' ?> class="thumbnail">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="./img/fff.png" alt="Koekjes als bloem figuur" style='height=100%'>
+                                        
+                                    </div>
+                                    <div class="back">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/product.php' ?> class="thumbnail">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="./img/fff.png" alt="Koekjes als bloem figuur" style='height=100%'>
+                                        
+                                    </div>
+                                    <div class="back">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/product.php' ?>  class="thumbnail">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
                                     <div class="front">
@@ -173,6 +173,9 @@
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
+            </div>
+            <div class="col-md-3">
+                <?php  include 'resources/review.php'; ?>
             </div>
         </div>
     </div>
