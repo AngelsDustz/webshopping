@@ -46,6 +46,12 @@ ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
 .thumbnail {
 	width: 180px;
 }
+.thumbnail h8 {
+	margin: 0 0 0 5px;
+}
+.thumbnail p {
+	margin: 5px 1px 0 5px;
+}
 .flip-container {
 	perspective: 1000;
 }

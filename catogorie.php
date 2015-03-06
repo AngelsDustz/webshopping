@@ -35,12 +35,12 @@
 	                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
 	                            <div class="flipper">
 	                                <div class="front">
-	                                    Geheugen
+	                                    <h8>Geheugen</h8>
 	                                    <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/ram.png' ?>>
 	                                </div>
 	                                <div class="back">
-	                                    We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+	                                    <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 	                                </div>
 	                            </div>
                         	</div>
@@ -51,12 +51,12 @@
 	                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
 	                            <div class="flipper">
 	                                <div class="front">
-	                                    behuizing
+	                                    <h8>behuizing</h8>
 	                                    <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/behuizing.png' ?>>
 	                                </div>
 	                                <div class="back">
-	                                    We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+	                                    <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 	                                </div>
 	                            </div>
                         	</div>
@@ -67,19 +67,123 @@
 	                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
 	                            <div class="flipper">
 	                                <div class="front">
-	                                    fans
+	                                    <h8>fans</h8>
 	                                    <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fans.png' ?>>
 	                                </div>
 	                                <div class="back">
-	                                    We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+	                                    <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 	                                </div>
 	                            </div>
                         	</div>
                         	</a>
                     	</div>
                     </div>
+
+					<div class="row">
+                    <div class="col-md-3">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/controllers.php' ?> class="thumbnail">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
+                                <div class="flipper">
+                                    <div class="front">
+                                        <h8>Controllers</h8>
+                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/controllers.png' ?>>
+                                    </div>
+                                    <div class="back">
+                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/videokaarten.php' ?> class="thumbnail">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
+                                <div class="flipper">
+                                    <div class="front">
+                                        <h8>Videokaarten</h8>
+                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/videokaart.png' ?>>
+                                    </div>
+                                    <div class="back">
+                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/voeding.php' ?> class="thumbnail">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
+                                <div class="flipper">
+                                    <div class="front">
+                                        <h8>Voeding</h8>
+                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/voeding.png' ?>>
+                                    </div>
+                                    <div class="back">
+                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                	</div>
+	                
+	                <div class="row">
+	                    <div class="col-md-3">
+	                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/moederbord.php' ?> class="thumbnail">
+	                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
+	                                <div class="flipper">
+	                                    <div class="front">
+	                                        <h8>Moederbord</h8>
+	                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/moederbord.png' ?>>
+	                                    </div>
+	                                    <div class="back">
+	                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </a>
+	                    </div>
+	                    <div class="col-md-3">
+	                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/hardeschrijf.php' ?> class="thumbnail">
+	                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
+	                                <div class="flipper">
+	                                    <div class="front">
+	                                        <h8>Hardeschrijven</h8>
+	                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/hardeschrijf.png' ?>>
+	                                    </div>
+	                                    <div class="back">
+	                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </a>
+	                    </div>
+	                    <div class="col-md-3">
+	                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/ssd.php' ?> class="thumbnail">
+	                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
+	                                <div class="flipper">
+	                                    <div class="front">
+	                                        <h8>SSD</h8>
+	                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/ssd.png' ?>>
+	                                    </div>
+	                                    <div class="back">
+	                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </a>
+	                    </div>
+	                
+	                </div>
 	            </div>
+
 
             </div>
         </div>
