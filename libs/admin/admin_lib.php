@@ -22,12 +22,15 @@ class Admin{
 		Description :
 			Voegt een nieuw product toe aan de database.
 	*/
-	public function productAdd($productID = -1, $productName, $productDesc, $productPrice){
+	public function productAdd($productName, $productDesc, $productPrice, $productCatergory, $productID = -1){
 		//
 		if ($productID == -1){
 			//
-			$productID = autoGenProductID(); //Als er geen ID mee is gegeven genereer de sleutel automatisch door middel van autoGenProductID
+			$productID = Admin::autoGenProductID(); //Als er geen ID mee is gegeven genereer de sleutel automatisch door middel van autoGenProductID
 		}
+
+		db::insert('Products', 'Description, Price, Category, Name', ':a, :b, :c, :d', ['a' => $productDesc, 'b' => $productPrice, 'c' => $productCatergory, 'd' => $productName]);
+		return true;
 	}
 
 	/*
@@ -38,8 +41,11 @@ class Admin{
 	*/
 	private function autoGenProductID(){
 		//
-		$IDs = db::dbQuery('SELECT idProducts FROM Products ORDER BY DESC LIMIT 1');
+		$IDs = db::select('*', 'Products');
+		$IDs = end($IDs);
+		$IDs = $IDs[0];
 		//To-do, test als statement werkt. Als het werkt kijk hoe de id heet en tel er 1 bij op en return dat nummer
+		return $IDs+1;
 	}
 
 	/*
