@@ -24,7 +24,7 @@
                         <li>vrijdag     09:00 - 20:00</li>
                         <li>Zaterdag    Gesloten</li>
                         <li>Zondag      Gesloten</li>
-                        <li><a href="#">Kijk voor speciale data op ons contact pagina!</a></li>
+                        <li><a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/contact.php' ?>">Kijk voor speciale data op ons contact pagina!</a></li>
                     </ul>
                 </div>
                 

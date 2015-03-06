@@ -14,7 +14,7 @@
         		    <ul class="breadcrumb">
 					    <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/index.php'?>>Home</a> <span class="divider">/</span></li>
 					    <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/catogorie.php'?>>Catogorien</a> <span class="divider">/</span></li>
-					    <li class="active">Geheugen</li>
+					    <li class="active">Fans</li>
 				    </ul>
         		</div>
         	</div>

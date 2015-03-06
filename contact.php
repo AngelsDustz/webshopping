@@ -12,11 +12,13 @@
     		<div class="row">
     			<div class="col-md-6">
     			<h1>Over webshopping</h1>
+    			<hr>
     			<p>Hallo, wij zijn <strong>Johan, Berwout en Klaarjan</strong></p>
     			<p>Wij zijn webshopping begonnen voor .... om de verkopen ook online te doen, met een vervrissend tintje.</p>
     			</div>
     			<div class="col-md-4">
     				<h1>Hoofschotjes</h1>
+    				<hr>
     					<label><img src="img/johan.jpg" alt="Johan" class="img-circle" style="height:100px;">Johan Vlaar</label>
     				<img src="..." alt="..." class="img-circle" style="height:100px;">
     				<img src="..." alt="..." class="img-circle" style="height:100px;">
@@ -34,6 +36,7 @@
         		<div class="col-md-9">
         			<div class="col-md-4">
 	        			<h1>Openingstijden</h1>
+	        			<hr>
 	                    <ul>
 	                        <li>Webshop 24/7</li>
 	                        <li>Maandag     09:00 - 20:00</li>
@@ -47,6 +50,7 @@
                     </div>
                     <div class="col-md-8">
                     	<h1>Waar zijn wij te vinden?</h1>
+                    	<hr>
                     	<ul>
                     		<li>adress: Travertijnstraat 6</li>
                     		<li>postcode: 9743 SZ Groningen</li>

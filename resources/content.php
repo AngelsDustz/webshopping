@@ -18,7 +18,7 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/resources/producten/geheugen.php' ?> class="thumbnail">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?> class="thumbnail">
                         <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                             <div class="flipper">
                                 <div class="front">
@@ -36,30 +36,32 @@
                     
 
                     <div class="col-md-4">
-                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/product.php' ?>  class="thumbnail">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/behuizing.php' ?> class="thumbnail">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="./img/fff.png" alt="Koekjes als bloem figuur" style='height=100%'>
-                                        
+                                        behuizing
+                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/behuizing.png' ?>>
                                     </div>
                                     <div class="back">
-                                        
+                                        We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                                     </div>
                                 </div>
                             </div>
-                        </a>
+                            </a>
                     </div>
                     <div class="col-md-4">
-                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/product.php' ?>  class="thumbnail">
+                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/fans.php' ?> class="thumbnail">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="./img/fff.png" alt="Koekjes als bloem figuur" style='height=100%'>
-                                        
+                                        fans
+                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fans.png' ?>>
                                     </div>
                                     <div class="back">
-                                        
+                                        We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                                     </div>
                                 </div>
                             </div>
