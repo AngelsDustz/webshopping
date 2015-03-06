@@ -1,6 +1,6 @@
 <head>
 	<title>Webshopping</title>
-    <link rel="shortcut icon" href="/webshopping/img/logo.png">
+    <link rel="shortcut icon" href="/webshopping/img/logo1.ico">
 	
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

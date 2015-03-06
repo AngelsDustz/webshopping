@@ -22,7 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand <?php echo $index; ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/index.php'?> ><img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/logo1.png'?> alt='Home' title='Home'></a>
+        <a class="navbar-brand <?php echo $index; ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/index.php'?> ><img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/logo.png'?> alt='Home' title='Home'></a>
     </div>
         
     <div id="navbar" class="navbar-collapse collapse">
