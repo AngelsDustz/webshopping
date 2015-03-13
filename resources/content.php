@@ -26,8 +26,9 @@
                                     <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/ram.png' ?>>
                                 </div>
                                 <div class="back">
-                                    <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                    <p>Onze geheugen banken zijn verkrijgbaar vanaf 14,95 euro. We hebben banken van 2GB en 4GB,
+                                        hier zijn ook combinaties in te maken.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -40,12 +41,11 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
                                     <div class="front">
-                                        <h8>behuizing</h8>
+                                        <h8>Behuizing</h8>
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/behuizing.png' ?>>
                                     </div>
                                     <div class="back">
-                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        <p>We hebben veel verschilende soorten behuizingen variërend van kleine kasten tot grote towers.</p>
                                     </div>
                                 </div>
                             </div>
@@ -56,12 +56,11 @@
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
                                     <div class="front">
-                                        <h8>fans</h8>
+                                        <h8>Fans</h8>
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fans.png' ?>>
                                     </div>
                                     <div class="back">
-                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        <p>Fans om uw desktop koel te houden, variërend van waterkoeling tot 16" fans.</p>
                                     </div>
                                 </div>
                             </div>
@@ -78,8 +77,7 @@
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/controllers.png' ?>>
                                     </div>
                                     <div class="back">
-                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        <p>Controllers voor op uw moederbord geluidkaarten of ...</p>
                                     </div>
                                 </div>
                             </div>
@@ -94,8 +92,7 @@
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/videokaart.png' ?>>
                                     </div>
                                     <div class="back">
-                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        <p>Hier staat het assortiment van alle videokaarten die wij aanbieden.</p>
                                     </div>
                                 </div>
                             </div>
@@ -110,8 +107,7 @@
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/voeding.png' ?>>
                                     </div>
                                     <div class="back">
-                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        <p>Voeding nodig voor alle componenten die stroom nodig hebben in uw desktop.</p>
                                     </div>
                                 </div>
                             </div>
@@ -128,8 +124,7 @@
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/moederbord.png' ?>>
                                     </div>
                                     <div class="back">
-                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        <p>Het hart van uw computer hierop zet u al uw kaarten.</p>
                                     </div>
                                 </div>
                             </div>
@@ -144,8 +139,7 @@
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/hardeschrijf.png' ?>>
                                     </div>
                                     <div class="back">
-                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        <p>De opslag van uw PC hierop komen al uw programma's te staan.</p>
                                     </div>
                                 </div>
                             </div>
@@ -160,8 +154,8 @@
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/ssd.png' ?>>
                                     </div>
                                     <div class="back">
-                                        <p>We hebben veel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        <p>Zogeheten solid state drives dit is een opslag schijf maar vooral bedoeld voor programma's die u vaak gebruikt.
+                                            Hier worden ook meestal besturingsystemen gezet.</p>
                                     </div>
                                 </div>
                             </div>
