@@ -40,6 +40,7 @@ class Auth {
 		if ($data == false){
 			//
 			$_SESSION['error']['Auth'] = 'Het is niet gelukt om in te loggen!<br>Controleer Uw naam en wachtwoord!<br>';
+			return false;
 		} else {
 			//
 			$_SESSION['Auth']['ID'] 		= $data['idUser'];

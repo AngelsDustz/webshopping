@@ -24,7 +24,14 @@ class db {
 		unset($dbConfig);
 
 		$string = $type.':host='.$host.';dbname='.$dbname;
-		$db = new PDO($string, $user, $pass);
+		try {
+			//
+			$db = new PDO($string, $user, $pass);
+		} catch (Exception $e){
+			//
+			throw new Exception("$e", 500);
+			
+		}
 		return $db;
 	}
 
@@ -92,5 +99,11 @@ class db {
 
 		$statement = $db->prepare($toExecute);
 		$statement->execute($sec_value);
+	}
+
+	public function drop($table, $where){
+		//
+		$db = db::connect();
+		$db->exec("DELETE FROM $table WHERE $where");
 	}
 }
