@@ -17,7 +17,7 @@
     			<p>Wij zijn webshopping begonnen voor .... om de verkopen ook online te doen, met een vervrissend tintje.</p>
     			</div>
     			<div class="col-md-6">
-    				<h1>Hoofschotjes</h1>
+    				<h1>Hoofdschotjes</h1>
     				<hr>
                     <div class="col-md-4">
     					<label><img src="img/johan.jpg" alt="Johan" class="img-circle" style="height:100px;"><p>Johan Vlaar</p></label>
@@ -39,10 +39,10 @@
 	                        <li>Maandag     09:00 - 20:00</li>
 	                        <li>Dinsdag     09:00 - 20:00</li>
 	                        <li>woesdag     09:00 - 20:00</li>
-	                        <li>Donderdag   09:00 - 20:00</li>
+	                        <li>Donderdag   09:00 - 22:00</li>
 	                        <li>vrijdag     09:00 - 20:00</li>
-	                        <li>Zaterdag    Gesloten</li>
-	                        <li>Zondag      Gesloten</li>
+	                        <li>Zaterdag    13:00 - 18:00</li>
+	                        <li>Zondag      13:00 - 17:00</li>
 	                    </ul>
                     </div>
                     <div class="col-md-6">
