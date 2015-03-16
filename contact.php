@@ -16,25 +16,22 @@
     			<p>Hallo, wij zijn <strong>Johan, Berwout en Klaarjan</strong></p>
     			<p>Wij zijn webshopping begonnen voor .... om de verkopen ook online te doen, met een vervrissend tintje.</p>
     			</div>
-    			<div class="col-md-4">
+    			<div class="col-md-6">
     				<h1>Hoofschotjes</h1>
     				<hr>
-    					<label><img src="img/johan.jpg" alt="Johan" class="img-circle" style="height:100px;">Johan Vlaar</label>
-    				<img src="..." alt="..." class="img-circle" style="height:100px;">
-    				<img src="..." alt="..." class="img-circle" style="height:100px;">
-    			</div>
+                    <div class="col-md-4">
+    					<label><img src="img/johan.jpg" alt="Johan" class="img-circle" style="height:100px;"><p>Johan Vlaar</p></label>
+    				</div>
+                    <div class="col-md-4">    
+                        <label><img src="img/berwout.jpg" alt="Berwout" class="img-circle" style="height:100px;"><p>Berwout Kruit</p> </label>
+    				</div>
+                    <div class="col-md-4">    
+                        <label><img src="img/klaasjan.jpg" alt="Klaasjan" class="img-circle" style="height:100px;"> <p>Klaasjan Oosterveld</p> </label>
+    			     </div>
+                </div>
     		</div>
     		<div class="row">
-        		<div class="col-md-3">
-        			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        		</div>
-        		<div class="col-md-9">
-        			<div class="col-md-4">
+        			<div class="col-md-6">
 	        			<h1>Openingstijden</h1>
 	        			<hr>
 	                    <ul>
@@ -48,7 +45,7 @@
 	                        <li>Zondag      Gesloten</li>
 	                    </ul>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-6">
                     	<h1>Waar zijn wij te vinden?</h1>
                     	<hr>
                     	<ul>

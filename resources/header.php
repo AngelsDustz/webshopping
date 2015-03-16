@@ -2,13 +2,25 @@
 @session_start(); 
 
     $index          =   "link";
+    $catogorie      =   "link";
+    $contact        =   "link";
+    $winkel         =   "link";
  
 
     $menuLinks=basename($_SERVER['PHP_SELF'],".php");
 
     switch ($menuLinks) {
         case 'index':
-            $index          = "linkActive";
+            $index              = "linkActive";
+            break;
+        case 'catogorie':
+            $catogorie          = "linkActive";
+            break;
+        case 'contact':
+            $contact             = "linkActive";
+            break;
+        case 'winkel':
+            $winkel             = "linkActive";
             break;
     }
 
@@ -28,10 +40,11 @@
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
         <!-- Nav left -->
+        <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/catogorie.php'?> class="<?php echo $catogorie; ?>">Producten</a></li>
         </ul>
           
         <ul class="nav navbar-nav navbar-right">
-            <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/contact.php'?>>Contact</a></li>
+            <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/contact.php'?> class="<?php echo $contact; ?>">Contact</a></li>
 
 
             <li class="dropdown">
@@ -67,7 +80,7 @@
                 </form>
             </ul>
             </li>
-            <li><a href="#" id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a></li>
+            <li class="<?php echo $winkel; ?>"><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a></li>
         </ul>
     </div><!--/.nav-collapse -->
 </div>

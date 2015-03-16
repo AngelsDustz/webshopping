@@ -11,17 +11,13 @@ nav .navbar-right img {
 	height: 50px;
 }
 ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
-		margin: -15px 0 0 0;
-	}
-@media (min-width:  1350px) { 
-	ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
-		padding: 2px;
-		margin: 0 -100px 0 100px;
-	}
+	margin: -15px 0 0 0;
 }
 
-
-
+.linkActive {
+	color: #777;
+		border-bottom: #777 solid 5px;
+}
 
 /*Content*/
 .content {
