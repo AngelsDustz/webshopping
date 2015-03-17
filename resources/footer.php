@@ -20,10 +20,10 @@
                         <li>Maandag     09:00 - 20:00</li>
                         <li>Dinsdag     09:00 - 20:00</li>
                         <li>woesdag     09:00 - 20:00</li>
-                        <li>Donderdag   09:00 - 20:00</li>
+                        <li>Donderdag   09:00 - 22:00</li>
                         <li>vrijdag     09:00 - 20:00</li>
-                        <li>Zaterdag    Gesloten</li>
-                        <li>Zondag      Gesloten</li>
+                        <li>Zaterdag    13:00 - 18:00</li>
+                        <li>Zondag      13:00 - 17:00</li>
                         <li><a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/contact.php' ?>">Kijk voor speciale data op ons contact pagina!</a></li>
                     </ul>
                 </div>
