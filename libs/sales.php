@@ -1,3 +1,6 @@
 <?php
+include_once('../libs/database.php');
 
-//TO-DO
+class Sales{
+	//
+}

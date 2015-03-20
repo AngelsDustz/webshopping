@@ -1,7 +1,7 @@
 <?php
-include('../libs/auth.php');
+include_once('../libs/auth.php');
 
-if (/*Auth::logged() && Auth::level(10)*/1){
+if (Auth::logged() && Auth::level(10)){
 	//
 	include('main.php');
 } else {
