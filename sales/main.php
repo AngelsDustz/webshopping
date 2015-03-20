@@ -10,7 +10,19 @@
 		</div>
 
 		<div id='navbar'>
-			<div class='buttons'>iets | iets2 | iets3</div>
+			<div class="button">Prijsen</div>
+			<div class="button_no">|</div>
+			<div class="button">Verkocht</div>
+			<div class="button_no">|</div>
+			<div class="button">Ingekocht</div>
+			<div class="button_no">|</div>
+			<div class="button">Weetikveel</div>
+			<div class="button_no">|</div>
+			<div class="button">Zoeken</div>
+		</div>
+
+		<div id="content">
+			//
 		</div>
 	</body>
 </html>

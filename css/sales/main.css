@@ -7,4 +7,35 @@ body h1 {
 
 #navbar {
 	background-color:  	#F00;
+	height: 			70px;
+}
+
+#navbar .button {
+	float: 				left;
+	text-align:  		center;
+	padding-left: 		8px;
+	padding-top: 		10px;
+	padding-right: 		8px;
+	margin-top: 		20px;
+	height: 			25px;
+	background-color: 	#0F0;
+}
+
+#navbar .button_no {
+	float: 				left;
+	text-align:  		center;
+	padding-left: 		8px;
+	padding-top: 		10px;
+	padding-right: 		8px;
+	margin-top: 		20px;
+	height: 			25px;
+	background-color: 	#0F0;
+}
+
+#navbar .button:nth-child(1) {
+	margin-left: 		20px;
+}
+
+#navbar .button:hover {
+	background-color: 	#00F;
 }
