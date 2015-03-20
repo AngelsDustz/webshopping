@@ -39,3 +39,7 @@ body h1 {
 #navbar .button:hover {
 	background-color: 	#00F;
 }
+
+#content {
+	margin: 			10px 0 0 10px;
+}
