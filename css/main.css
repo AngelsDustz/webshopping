@@ -17,6 +17,7 @@ ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
 .linkActive {
 	color: #777;
 		border-bottom: #777 solid 5px;
+		padding: 0px;
 }
 
 /*Content*/
