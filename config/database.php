@@ -3,6 +3,6 @@ $dbConfig = [
 	'type' 		=> 'mysql',
 	'host' 		=> '127.0.0.1',
 	'dbname' 	=> 'webshopping',
-	'user' 		=> 'root',
-	'pass' 		=> 'johanjoh',
+	'user' 		=> 'webshopping',
+	'pass' 		=> 'Q13eV56',
 ];
