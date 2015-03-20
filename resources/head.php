@@ -21,7 +21,7 @@
 
 	<!-- Custum CSS -->
 	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/css/main.css' ?>           		rel="stylesheet" media="screen">
-	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/css/animation.css' ?>           		rel="stylesheet" media="screen">
+	<!-- <link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/css/animation.css' ?>           		rel="stylesheet" media="screen"> -->
 
 
  	<!-- Custom Phone CSS -->

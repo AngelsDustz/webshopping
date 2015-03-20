@@ -16,8 +16,8 @@ ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
 
 .linkActive {
 	color: #777;
-		border-bottom: #777 solid 5px;
-		padding: 0px;
+	border-bottom: #777 solid 5px;
+	padding: 0px;
 }
 
 /*Content*/
@@ -36,11 +36,21 @@ ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
 	margin: 0 0 0 900px;
 }
 
-
-
+.producten {
+	height: 170px;
+}
+.producten img  {
+	float: right;
+	margin: 5px 10px 0 0; 
+}
+.thumbnailOmschrijving {
+  margin: 25px 1px 0 5px!important;
+}
+.thumbnailPrijs {
+	float: right;
+}
 /* CSS Flip */
-/* entire container, keeps perspective */
-.thumbnail {
+.index {
 	width: 180px;
 }
 .thumbnail h8 {
@@ -52,7 +62,7 @@ ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
 .flip-container {
 	perspective: 1000;
 }
-.flip-container img {
+.index img {
 	width: 150px;
 	height: 150px;
 	margin: 0 12px 0 12px;

@@ -33,7 +33,7 @@
                     	<div class="col-md-3">
 	                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?> class="thumbnail">
 	                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-	                            <div class="flipper">
+	                            <div class="flipper index">
 	                                <div class="front">
 	                                    <h8>Geheugen</h8>
 	                                    <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/ram.png' ?>>
@@ -49,7 +49,7 @@
                     	<div class="col-md-3">
 	                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/behuizing.php' ?> class="thumbnail">
 	                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-	                            <div class="flipper">
+	                            <div class="flipper index">
 	                                <div class="front">
 	                                    <h8>Behuizing</h8>
 	                                    <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/behuizing.png' ?>>
@@ -64,7 +64,7 @@
                     	<div class="col-md-3">
 	                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/fans.php' ?> class="thumbnail">
 	                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-	                            <div class="flipper">
+	                            <div class="flipper index">
 	                                <div class="front">
 	                                    <h8>Fans</h8>
 	                                    <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fans.png' ?>>
@@ -82,7 +82,7 @@
                     <div class="col-md-3">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/controllers.php' ?> class="thumbnail">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-                                <div class="flipper">
+                                <div class="flipper index">
                                     <div class="front">
                                         <h8>Controllers</h8>
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/controllers.png' ?>>
@@ -97,7 +97,7 @@
                     <div class="col-md-3">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/videokaarten.php' ?> class="thumbnail">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-                                <div class="flipper">
+                                <div class="flipper index">
                                     <div class="front">
                                         <h8>Videokaarten</h8>
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/videokaart.png' ?>>
@@ -112,7 +112,7 @@
                     <div class="col-md-3">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/voeding.php' ?> class="thumbnail">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-                                <div class="flipper">
+                                <div class="flipper index">
                                     <div class="front">
                                         <h8>Voeding</h8>
                                         <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/voeding.png' ?>>
@@ -130,7 +130,7 @@
 	                    <div class="col-md-3">
 	                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/moederbord.php' ?> class="thumbnail">
 	                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-	                                <div class="flipper">
+	                                <div class="flipper index">
 	                                    <div class="front">
 	                                        <h8>Moederbord</h8>
 	                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/moederbord.png' ?>>
@@ -145,7 +145,7 @@
 	                    <div class="col-md-3">
 	                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/hardeschrijf.php' ?> class="thumbnail">
 	                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-	                                <div class="flipper">
+	                                <div class="flipper index">
 	                                    <div class="front">
 	                                        <h8>Hardeschrijven</h8>
 	                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/hardeschrijf.png' ?>>
@@ -160,7 +160,7 @@
 	                    <div class="col-md-3">
 	                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/ssd.php' ?> class="thumbnail">
 	                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
-	                                <div class="flipper">
+	                                <div class="flipper index">
 	                                    <div class="front">
 	                                        <h8>SSD</h8>
 	                                        <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/ssd.png' ?>>

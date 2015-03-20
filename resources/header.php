@@ -40,7 +40,7 @@
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
         <!-- Nav left -->
-        <li class="<?php echo $catogorie; ?>"><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/catogorie.php'?>>Producten</a></li>
+        <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/catogorie.php'?> >Producten</a></li>
         </ul>
           
         <ul class="nav navbar-nav navbar-right">
