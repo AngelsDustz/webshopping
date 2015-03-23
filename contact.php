@@ -13,8 +13,8 @@
     			<div class="col-md-6">
     			<h1>Over webshopping</h1>
     			<hr>
-    			<p>Hallo, wij zijn <strong>Johan, Berwout en Klaarjan</strong></p>
-    			<p>Wij zijn webshopping begonnen voor .... om de verkopen ook online te doen, met een vervrissend tintje.</p>
+    			<p>Hallo, wij zijn <strong>Johan, Berwout en Klaasjan</strong></p>
+    			<p>Wij zijn webshopping begonnen voor .... om de verkopen ook online te doen, met een verfrissend tintje.</p>
     			</div>
     			<div class="col-md-6">
     				<h1>Hoofdschotjes</h1>
