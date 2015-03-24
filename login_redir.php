@@ -7,7 +7,3 @@
 		if (Auth::login($naam, $wachtwoord) == false){
 			echo 'je moeder';
 		}
-		else
-		{
-		var_dump($_POST);
-		}

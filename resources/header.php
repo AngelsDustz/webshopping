@@ -54,13 +54,13 @@
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-8 control-label">Email</label>
                         <div class="col-sm-10 col-sm-offset-1">
-                            <input type="email" class="form-control" id="inputEmail3" name="username" placeholder="Email">
+                            <input type="email" class="form-control" id="inputEmail3" name="username" placeholder="Email" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputPassword3" class="col-sm-8 control-label">Wachtwoord</label>
                         <div class="col-sm-10 col-sm-offset-1">
-                            <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password">
+                            <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password" required>
                         </div>
                     </div>
                     <div class="form-group">
