@@ -7,3 +7,7 @@
 		if (Auth::login($naam, $wachtwoord) == false){
 			echo 'je moeder';
 		}
+		else
+		{
+			Auth::login($naam, $wachtwoord);
+		}

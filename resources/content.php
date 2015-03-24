@@ -70,7 +70,7 @@
                                     <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/controllers.png' ?>>
                                 </div>
                                 <div class="back">
-                                    <p>Controllers voor op uw moederbord geluidkaarten of ...</p>
+                                    <p>Controllers voor op uw moederbord, geluidskaarten of WiFikaarten.</p>
                                 </div>
                             </div>
                         </div>
