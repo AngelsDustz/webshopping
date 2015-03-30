@@ -52,9 +52,9 @@
             <ul class="dropdown-menu" role="menu">
                 <form class="form-horizontal" method="POST" action="login_redir.php">
                     <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-8 control-label">Email</label>
+                        <label for="inputEmail3" class="col-sm-8 control-label">Gebruikers naam</label>
                         <div class="col-sm-10 col-sm-offset-1">
-                            <input type="email" class="form-control" id="inputEmail3" name="username" placeholder="Email" required>
+                            <input type="text" class="form-control" id="inputEmail3" name="username" placeholder="username" required>
                         </div>
                     </div>
                     <div class="form-group">
@@ -86,8 +86,13 @@
                 <a href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/logout_redir.php"' ?>>Log uit!</a>
             </li>
         <?php endif ?>
-
-            <li class="<?php echo $winkel; ?>"><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a></li>
+            
+            <li class="dropdown">
+            <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
+                <ul class="dropdown-menu" role="menu">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, voluptate nihil molestias est nulla vero. Molestiae esse aliquid, modi repudiandae voluptas excepturi debitis hic mollitia earum laudantium odit suscipit, cumque.</p>
+                </ul>
+            </li>
         </ul>
     </div><!--/.nav-collapse -->
 </div>
