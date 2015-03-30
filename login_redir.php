@@ -1,15 +1,25 @@
 <?php
 	include_once 'libs/auth.php';
-		empty($_POST["username"]);//Wel een 'check' schrijven maar er niks mee doen?
-		empty($_POST["password"]);//Zelfde hier, het returnd true of false maar wat doe je er mee?
-		header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/'); //Hier mee worden we direct terug gestuurt nog
-		//voordat er ook maar iets gebeurt
 
-		if (Auth::login($naam, $wachtwoord) == false){ //Legit check werkt.
-			echo 'je moeder';//Waarom :V
+		$naam($_POST["username"]);
+		$wachtwoord($_POST["password"]);
+
+		if(empty($_POST["username"]) == true){
+			header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');
+		}
+		//Wel een 'check' schrijven maar er niks mee doen?
+		if(empty($_POST["password"]) == true){
+			header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');
+		}//Zelfde hier, het returnd true of false maar wat doe je er mee?
+
+		//how does this work then?
+		if (Auth::login($naam, $wachtwoord) == true){ //Legit check werkt.
+			echo 'Works';
+			echo $naam;
+			echo $wachtwoord;
+
 		}
 		else
 		{
-			Auth::login($naam, $wachtwoord); //Waarom roepen we login nog een keer aan? Als het goed gaat doet het alles al.
-			//Dit is een beetje erg overbodig. En ik twijfel of dit wel uitgevoerd wordt.
+		header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');	
 		}
