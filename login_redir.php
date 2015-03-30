@@ -1,25 +1,20 @@
 <?php
 	include_once 'libs/auth.php';
+	@session_start(); //Nog niet belangerijk om te weten.
 
-		$naam($_POST["username"]);
-		$wachtwoord($_POST["password"]);
+	$naam = $_POST["username"]; //$variable = waarde
+	$wachtwoord = $_POST["password"]; //Zelfde hier
 
-		if(empty($_POST["username"]) == true){
-			header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');
-		}
-		//Wel een 'check' schrijven maar er niks mee doen?
-		if(empty($_POST["password"]) == true){
-			header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');
-		}//Zelfde hier, het returnd true of false maar wat doe je er mee?
+	if(empty($_POST["username"]) == true){ //Netjes!
+		header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');
+	}
+	
+	if(empty($_POST["password"]) == true){
+		header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');
+	}
 
-		//how does this work then?
-		if (Auth::login($naam, $wachtwoord) == true){ //Legit check werkt.
-			echo 'Works';
-			echo $naam;
-			echo $wachtwoord;
-
-		}
-		else
-		{
-		header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');	
-		}
+	if (Auth::login($naam, $wachtwoord) == false){ //In de functie staat gedefiniert dat als het goed gaat
+		//hij automatisch de rest doet. Beetje overbodig eigenlijk maar leek mij makkelijker.
+		//Dus je hoeft alleen te kijken of het fout ging en zo ja terug sturen.
+		header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');
+	}
