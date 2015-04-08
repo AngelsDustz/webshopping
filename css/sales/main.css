@@ -6,7 +6,7 @@ body h1 {
 }
 
 #navbar {
-	background-color:  	#F00;
+	background-color:  	#14181A;
 	height: 			70px;
 }
 
@@ -18,7 +18,7 @@ body h1 {
 	padding-right: 		8px;
 	margin-top: 		20px;
 	height: 			25px;
-	background-color: 	#0F0;
+	background-color: 	#5D5D5D;
 }
 
 #navbar .button_no {
@@ -29,7 +29,7 @@ body h1 {
 	padding-right: 		8px;
 	margin-top: 		20px;
 	height: 			25px;
-	background-color: 	#0F0;
+	background-color: 	#5D5D5D;
 }
 
 #navbar .button:nth-child(1) {
