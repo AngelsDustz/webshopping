@@ -4,7 +4,7 @@
         <div class="container-fluid">
   			<div class="row">
                 
-                <div class="col-lg-4 col-md-6">
+                <div class=" col-sm-6 col-lg-4 col-md-6">
                 <h1>Betaal opties</h1> 
                     <ul>
                         <li><a href="#">Ideal</a></li>
@@ -13,7 +13,7 @@
                     </ul>
                 </div>
                 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-sm-6 col-lg-4 col-md-6">
                 <h1>Openingstijden</h1>
                     <ul>
                         <li>Webshop 24/7</li>
@@ -28,7 +28,7 @@
                     </ul>
                 </div>
                 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-sm-6 col-lg-4 col-md-6">
                 <h1>Contact</h1>
                     <ul>
                         <li>website: <a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/index.php' ?>">www.webshopping.nl</a></li>

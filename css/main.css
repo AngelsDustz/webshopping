@@ -5,8 +5,25 @@
 .navbar-header a {
 			padding: 0 15px;
 }
-nav .navbar-right li,
-nav .navbar-right a,
+@media (min-width: 800px) {
+	nav .navbar-right li,
+	nav .navbar-right a,
+	nav .navbar-right img {
+		height: 50px;
+	}
+}
+@media (max-width: 765px){
+	li.dropdown:nth-child(2) > ul:nth-child(2){
+		width: 80%;
+		margin: 0px 0 0 5px;
+	}
+	button.btn{
+		float: right;
+    	width: 200px;
+    	height: 50px;
+   	}
+}
+
 nav .navbar-right img {
 			height: 50px;
 }
@@ -53,7 +70,9 @@ ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
 .secondLi {
 	margin: 0 0 0 30px;
 }
-
+a.btn {
+	margin: 0px 0px 10px 15px;
+}
 /* Contact pagina */
 .overPersoon {
 			float: right;
@@ -138,15 +157,15 @@ footer {
     margin-top: -1px;
 }
 
-.dropdown-menu li:hover .sub-menu {
+.dropdownWinkel li:hover .sub-menu {
     visibility: visible;
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdownWinkel {
     display: block;
 }
 
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+.nav-tabs .dropdownWinkel, .nav-pills .dropdownWinkel, .navbar .dropdownWinkel {
     margin-top: 0;
 }
 

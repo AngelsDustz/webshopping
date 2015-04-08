@@ -16,6 +16,11 @@
     
     <!-- Custom JavaScript -->
 
+	<!-- Fonts -->
+	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/fonts/glyphicons-halflings-regular.ttf' ?>			rel="stylesheet" media="screen">
+	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/fonts/glyphicons-halflings-regular.woff' ?>			rel="stylesheet" media="screen">
+	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/fonts/glyphicons-halflings-regular.woff2' ?>			rel="stylesheet" media="screen">
+
 	<!-- Bootstrap CSS -->
 	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/css/bootstrap.min.css' ?>			rel="stylesheet" media="screen">
 

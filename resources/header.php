@@ -86,13 +86,16 @@
                 <a href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/logout_redir.php"' ?>>Log uit!</a>
             </li>
         <?php endif ?>
-            
-            <li class="dropdown">
+  
+            <li class="dropdown hidden-xs">
             <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
-                <ul class="dropdown-menu" role="menu">
+                <ul class="dropdownWinkel dropdown-menu" role="menu">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, voluptate nihil molestias est nulla vero. Molestiae esse aliquid, modi repudiandae voluptas excepturi debitis hic mollitia earum laudantium odit suscipit, cumque.</p>
                 </ul>
             </li>
+            <li class="visible-xs">
+               <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
+            </li> 
         </ul>
     </div><!--/.nav-collapse -->
 </div>
