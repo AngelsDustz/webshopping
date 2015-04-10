@@ -1,4 +1,5 @@
 <?php
+@session_start();
 include_once('../libs/auth.php');
 
 if (1/*Auth::logged() && Auth::level(5)*/){
