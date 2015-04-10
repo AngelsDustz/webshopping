@@ -1,6 +1,5 @@
 <?php 
 @session_start(); 
-@include_once('./libs/auth.php');
 
     $index          =   "link";
     $catogorie      =   "link";
@@ -41,13 +40,13 @@
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
         <!-- Nav left -->
-        <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/index.php'?> >Producten</a></li>
+        <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/catogorie.php'?> >Producten</a></li>
         </ul>
           
         <ul class="nav navbar-nav navbar-right">
             <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/contact.php'?> class="<?php echo $contact; ?>">Contact</a></li>
 
-         <?php if (!Auth::logged()): ?>
+         <?php if (empty($_SESSION['user_id'])): ?>
             <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Login <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
@@ -82,13 +81,13 @@
                     </ul>
             </li>
         <?php endif ?>
-        <?php if (Auth::logged()): ?>                    
+        <?php if (!empty($_SESSION['user_id'])): ?>                    
             <li>
                 <a href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/logout_redir.php"' ?>>Log uit!</a>
             </li>
         <?php endif ?>
   
-            <li class="dropdown hidden-xs" style="height:50px;">
+            <li class="dropdown hidden-xs">
             <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
                 <ul class="dropdownWinkel dropdown-menu" role="menu">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, voluptate nihil molestias est nulla vero. Molestiae esse aliquid, modi repudiandae voluptas excepturi debitis hic mollitia earum laudantium odit suscipit, cumque.</p>
