@@ -24,105 +24,195 @@
 		            	<?php include '../resources/sidemenu.php'; ?>
 		            </div>
 		            <div class="col-md-9">
-			            <div class="col-md-4">
-			            	<a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>
-			            	<div class="thumbnail producten">
-                                <h8>Voorbeeld product</h8>
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?>>
-                                <p class="thumbnailOmschrijving">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="thumbnailPrijs">Prijs: €55,-</p>
-	                        </div>
-	                        </a>
-			            </div>
-			            <div class="col-md-4">
-			            	<a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>
-			            	<div class="thumbnail producten">
-                                <h8>Voorbeeld product</h8>
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?>>
-                                <p class="thumbnailOmschrijving">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="thumbnailPrijs">Prijs: €55,-</p>
-	                        </div>
-	                        </a>
-			            </div>
-			            <div class="col-md-4">
-			            	<a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>
-			            	<div class="thumbnail producten">
-                                <h8>Voorbeeld product</h8>
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?>>
-                                <p class="thumbnailOmschrijving">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="thumbnailPrijs">Prijs: €55,-</p>
-	                        </div>
-	                        </a>
-			            </div>
-			            <div class="col-md-4">
-			            	<a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>
-			            	<div class="thumbnail producten">
-                                <h8>Voorbeeld product</h8>
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?>>
-                                <p class="thumbnailOmschrijving">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="thumbnailPrijs">Prijs: €55,-</p>
-	                        </div>
-	                        </a>
-			            </div>
-			            <div class="col-md-4">
-			            	<a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>
-			            	<div class="thumbnail producten">
-                                <h8>Voorbeeld product</h8>
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?>>
-                                <p class="thumbnailOmschrijving">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="thumbnailPrijs">Prijs: €55,-</p>
-	                        </div>
-	                        </a>
-			            </div>
-			            <div class="col-md-4">
-			            	<a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>
-			            	<div class="thumbnail producten">
-                                <h8>Voorbeeld product</h8>
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?>>
-                                <p class="thumbnailOmschrijving">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="thumbnailPrijs">Prijs: €55,-</p>
-	                        </div>
-	                        </a>
-			            </div>
-			            <div class="col-md-4">
-			            	<a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>
-			            	<div class="thumbnail producten">
-                                <h8>Voorbeeld product</h8>
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?>>
-                                <p class="thumbnailOmschrijving">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="thumbnailPrijs">Prijs: €55,-</p>
-	                        </div>
-	                        </a>
-			            </div>
-			            <div class="col-md-4">
-			            	<a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>
-			            	<div class="thumbnail producten">
-                                <h8>Voorbeeld product</h8>
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?>>
-                                <p class="thumbnailOmschrijving">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="thumbnailPrijs">Prijs: €55,-</p>
-	                        </div>
-	                        </a>
-			            </div>
-			            <div class="col-md-4">
-			            	<a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>
-			            	<div class="thumbnail producten">
-                                <h8>Voorbeeld product</h8>
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?>>
-                                <p class="thumbnailOmschrijving">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="thumbnailPrijs">Prijs: €55,-</p>
-	                        </div>
-	                        </a>
-			            </div>
+			            <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right">€**,**</h4>
+                                    <h4><a href="#" ?>>>product lorem</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis voluptatum, quasi tempore ipsam libero dolore. Laborum natus vitae saepe inventore nemo! Numquam ea asperiores, quia perferendis provident earum praesentium.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">** reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right">€**,**</h4>
+                                    <h4><a href="#" ?>>>product lorem</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis voluptatum, quasi tempore ipsam libero dolore. Laborum natus vitae saepe inventore nemo! Numquam ea asperiores, quia perferendis provident earum praesentium.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">** reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right">€**,**</h4>
+                                    <h4><a href="#" ?>>>product lorem</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis voluptatum, quasi tempore ipsam libero dolore. Laborum natus vitae saepe inventore nemo! Numquam ea asperiores, quia perferendis provident earum praesentium.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">** reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right">€**,**</h4>
+                                    <h4><a href="#" ?>>>product lorem</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis voluptatum, quasi tempore ipsam libero dolore. Laborum natus vitae saepe inventore nemo! Numquam ea asperiores, quia perferendis provident earum praesentium.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">** reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right">€**,**</h4>
+                                    <h4><a href="#" ?>>>product lorem</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis voluptatum, quasi tempore ipsam libero dolore. Laborum natus vitae saepe inventore nemo! Numquam ea asperiores, quia perferendis provident earum praesentium.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">** reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right">€**,**</h4>
+                                    <h4><a href="#" ?>>>product lorem</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis voluptatum, quasi tempore ipsam libero dolore. Laborum natus vitae saepe inventore nemo! Numquam ea asperiores, quia perferendis provident earum praesentium.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">** reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right">€**,**</h4>
+                                    <h4><a href="#" ?>>>product lorem</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis voluptatum, quasi tempore ipsam libero dolore. Laborum natus vitae saepe inventore nemo! Numquam ea asperiores, quia perferendis provident earum praesentium.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">** reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right">€**,**</h4>
+                                    <h4><a href="#" ?>>>product lorem</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis voluptatum, quasi tempore ipsam libero dolore. Laborum natus vitae saepe inventore nemo! Numquam ea asperiores, quia perferendis provident earum praesentium.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">** reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right">€**,**</h4>
+                                    <h4><a href="#" ?>>>product lorem</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis voluptatum, quasi tempore ipsam libero dolore. Laborum natus vitae saepe inventore nemo! Numquam ea asperiores, quia perferendis provident earum praesentium.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">** reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 		            </div>	
 	            </div>
             </div>

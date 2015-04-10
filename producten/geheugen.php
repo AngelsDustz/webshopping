@@ -45,92 +45,171 @@
                                 </div>
                             </div>
                         </div>
-                        
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?> alt="">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
                                 <div class="caption">
-                                    <h4 class="pull-right">$84.99</h4>
-                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>Fourth Product</a>
+                                    <h4 class="pull-right">€33,49</h4>
+                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen/product1.php' ?>>>G.Skill 4 GB DDR3-1600</a>
                                     </h4>
-                                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Deze geheugenmodule heeft een capaciteit van 4 GB (één module van 4 GB) en is geschikt voor systemen met een DDR3 geheugenbus van 1600 MHz.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">15 reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?> alt="">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
                                 <div class="caption">
-                                    <h4 class="pull-right">$84.99</h4>
-                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>Fourth Product</a>
+                                    <h4 class="pull-right">€33,49</h4>
+                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen/product1.php' ?>>>G.Skill 4 GB DDR3-1600</a>
                                     </h4>
-                                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Deze geheugenmodule heeft een capaciteit van 4 GB (één module van 4 GB) en is geschikt voor systemen met een DDR3 geheugenbus van 1600 MHz.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">15 reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?> alt="">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
                                 <div class="caption">
-                                    <h4 class="pull-right">$84.99</h4>
-                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>Fourth Product</a>
+                                    <h4 class="pull-right">€33,49</h4>
+                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen/product1.php' ?>>>G.Skill 4 GB DDR3-1600</a>
                                     </h4>
-                                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Deze geheugenmodule heeft een capaciteit van 4 GB (één module van 4 GB) en is geschikt voor systemen met een DDR3 geheugenbus van 1600 MHz.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">15 reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?> alt="">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
                                 <div class="caption">
-                                    <h4 class="pull-right">$84.99</h4>
-                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>Fourth Product</a>
+                                    <h4 class="pull-right">€33,49</h4>
+                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen/product1.php' ?>>>G.Skill 4 GB DDR3-1600</a>
                                     </h4>
-                                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Deze geheugenmodule heeft een capaciteit van 4 GB (één module van 4 GB) en is geschikt voor systemen met een DDR3 geheugenbus van 1600 MHz.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">15 reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?> alt="">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
                                 <div class="caption">
-                                    <h4 class="pull-right">$84.99</h4>
-                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>Fourth Product</a>
+                                    <h4 class="pull-right">€33,49</h4>
+                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen/product1.php' ?>>>G.Skill 4 GB DDR3-1600</a>
                                     </h4>
-                                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Deze geheugenmodule heeft een capaciteit van 4 GB (één module van 4 GB) en is geschikt voor systemen met een DDR3 geheugenbus van 1600 MHz.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">15 reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?> alt="">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
                                 <div class="caption">
-                                    <h4 class="pull-right">$84.99</h4>
-                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>Fourth Product</a>
+                                    <h4 class="pull-right">€33,49</h4>
+                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen/product1.php' ?>>>G.Skill 4 GB DDR3-1600</a>
                                     </h4>
-                                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Deze geheugenmodule heeft een capaciteit van 4 GB (één module van 4 GB) en is geschikt voor systemen met een DDR3 geheugenbus van 1600 MHz.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">15 reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?> alt="">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
                                 <div class="caption">
-                                    <h4 class="pull-right">$84.99</h4>
-                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>Fourth Product</a>
+                                    <h4 class="pull-right">€33,49</h4>
+                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen/product1.php' ?>>>G.Skill 4 GB DDR3-1600</a>
                                     </h4>
-                                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Deze geheugenmodule heeft een capaciteit van 4 GB (één module van 4 GB) en is geschikt voor systemen met een DDR3 geheugenbus van 1600 MHz.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">15 reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/fff.png' ?> alt="">
+                                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
                                 <div class="caption">
-                                    <h4 class="pull-right">$84.99</h4>
-                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?>>Fourth Product</a>
+                                    <h4 class="pull-right">€33,49</h4>
+                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen/product1.php' ?>>>G.Skill 4 GB DDR3-1600</a>
                                     </h4>
-                                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Deze geheugenmodule heeft een capaciteit van 4 GB (één module van 4 GB) en is geschikt voor systemen met een DDR3 geheugenbus van 1600 MHz.</p>
+                                </div>
+                                <div class="ratings">
+                                    <p class="pull-right">15 reviews</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
