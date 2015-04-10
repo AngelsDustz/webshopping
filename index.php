@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <!-- De scripts -->
 <?php include 'resources/head.php'; ?>

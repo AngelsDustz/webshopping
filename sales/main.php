@@ -1,6 +1,6 @@
 <html lang="nl">
 	<head>
-		<title>Iets</title>
+		<title>Webshopping's sales panel</title>
 		<link rel="stylesheet" type="text/css" href=<?php echo 'http://'.$_SERVER['HTTP_HOST'].'/webshopping/css/sales/main.css'?> >
 	</head>
 
