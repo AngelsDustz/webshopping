@@ -40,15 +40,15 @@
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
         <!-- Nav left -->
-        <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/catogorie.php'?> >Producten</a></li>
+        <li><a style="text-align: center!important;"href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/index.php'?> >Producten</a></li>
         </ul>
           
         <ul class="nav navbar-nav navbar-right">
-            <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/contact.php'?> class="<?php echo $contact; ?>">Contact</a></li>
+            <li><a  style="text-align: center!important;"href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/contact.php'?> class="<?php echo $contact; ?>">Contact</a></li>
 
          <?php if (empty($_SESSION['user_id'])): ?>
             <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Login <span class="caret"></span></a>
+            <a style="text-align: center!important;"href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Login <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <form class="form-horizontal" method="POST" action="login_redir.php">
                             <div class="form-group">
@@ -83,18 +83,18 @@
         <?php endif ?>
         <?php if (!empty($_SESSION['user_id'])): ?>                    
             <li>
-                <a href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/logout_redir.php"' ?>>Log uit!</a>
+                <a style="text-align: center!important;"href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/logout_redir.php"' ?>>Log uit!</a>
             </li>
         <?php endif ?>
   
             <li class="dropdown hidden-xs">
-            <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
+            <a style="text-align: center!important;"href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
                 <ul class="dropdownWinkel dropdown-menu" role="menu">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, voluptate nihil molestias est nulla vero. Molestiae esse aliquid, modi repudiandae voluptas excepturi debitis hic mollitia earum laudantium odit suscipit, cumque.</p>
                 </ul>
             </li>
             <li class="visible-xs">
-               <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
+               <a style="text-align: center!important;"href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
             </li> 
         </ul>
     </div><!--/.nav-collapse -->
