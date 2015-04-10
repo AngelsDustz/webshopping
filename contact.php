@@ -11,9 +11,9 @@
     	<div class="container-fluid">
             <div class="row">
 
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6">
 
-                    <div class="col-md-12">
+                    <div class="col-md-6 col-lg-12">
                         <h1>Openingstijden</h1>
                         <hr>
                         <ul>
@@ -28,7 +28,7 @@
                         </ul>
                     </div>
                     
-                    <div class="col-md-12">
+                    <div class="col-md-6 col-lg-12">
                         <h1>Waar zijn wij te vinden?</h1>
                         <hr>
                         <ul>
@@ -39,16 +39,16 @@
                     </div>
 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6">
 
-                    <div class="col-md-12">
+                    <div class="col-md-6 col-lg-12">
                         <h1>Over webshopping</h1>
                         <hr>
                         <p>Hallo, wij zijn <strong>Johan, Berwout en Klaasjan</strong></p>
                         <p>Wij zijn webshopping begonnen voor .... om de verkopen ook online te doen, met een verfrissend tintje.</p>
                     </div>
                    
-                    <div class="col-md-12">
+                    <div class="col-md-6 col-lg-12">
                         <h1>Hoofdschotjes</h1>
                         <hr>
                         <div class="col-md-12">

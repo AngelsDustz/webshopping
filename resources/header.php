@@ -40,7 +40,7 @@
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
         <!-- Nav left -->
-        <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/catogorie.php'?> >Producten</a></li>
+        <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/index.php'?> >Producten</a></li>
         </ul>
           
         <ul class="nav navbar-nav navbar-right">
@@ -87,7 +87,7 @@
             </li>
         <?php endif ?>
   
-            <li class="dropdown hidden-xs">
+            <li class="dropdown hidden-xs" style="height:50px;">
             <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
                 <ul class="dropdownWinkel dropdown-menu" role="menu">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, voluptate nihil molestias est nulla vero. Molestiae esse aliquid, modi repudiandae voluptas excepturi debitis hic mollitia earum laudantium odit suscipit, cumque.</p>

@@ -1,7 +1,7 @@
 <div class="col-md-2 visible-lg">
 	<div class="sideMenu">
 		<ul>
-			<li><h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/catogorie.php'?>>CATEGORIEËN</a></h4></li>
+			<li><h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/index.php'?>>CATEGORIEËN</a></h4></li>
 			<hr>
 
 			<li class="firstLi">Hardware</li>

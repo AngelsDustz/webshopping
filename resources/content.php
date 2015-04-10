@@ -14,13 +14,21 @@
                                 <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
                             </ol>
                             <div class="carousel-inner">
-                                <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/900x300" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/900x300" alt="">
-                                </div>
                                 <div class="item active">
+                                    <img class="slide-image" src="http://placehold.it/900x300" alt="">
+                                    <div class="carousel-caption">
+                                        <h3>Welkom bij webshopping!</h3>
+                                        <p>Webshopping is opgericht door Berwout, Johan en klaasjan</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="http://placehold.it/900x300" alt="">
+                                    <div class="carousel-caption">
+                                        <h3>Kijk hier voor onze producten</h3>
+                                        <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/catogorie.php'?>>Klik hier</a>
+                                    </div>
+                                </div>
+                                <div class="item ">
                                     <img class="slide-image" src="http://placehold.it/900x300" alt="">
                                 </div>
                             </div>

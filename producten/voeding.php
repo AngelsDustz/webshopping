@@ -13,7 +13,7 @@
         		<div class="col-md-12">
         		    <ul class="breadcrumb">
 					    <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/index.php'?>>Home</a> <span class="divider">/</span></li>
-					    <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/catogorie.php'?>>Catogorien</a> <span class="divider">/</span></li>
+					    <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/index.php'?>>Catogorien</a> <span class="divider">/</span></li>
 					    <li class="active">Voeding</li>
 				    </ul>
         		</div>
