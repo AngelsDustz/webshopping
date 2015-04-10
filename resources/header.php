@@ -1,5 +1,6 @@
 <?php 
 @session_start(); 
+@include_once('../libs/auth.php');
 
     $index          =   "link";
     $catogorie      =   "link";
@@ -46,42 +47,42 @@
         <ul class="nav navbar-nav navbar-right">
             <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/contact.php'?> class="<?php echo $contact; ?>">Contact</a></li>
 
-         <?php if (empty($_SESSION['user_id'])): ?>
+         <?php if (!Auth::logged()): ?>
             <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Login <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-                <form class="form-horizontal" method="POST" action="login_redir.php">
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-8 control-label">Gebruikers naam</label>
-                        <div class="col-sm-10 col-sm-offset-1">
-                            <input type="text" class="form-control" id="inputEmail3" name="username" placeholder="username" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-8 control-label">Wachtwoord</label>
-                        <div class="col-sm-10 col-sm-offset-1">
-                            <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-1 col-sm-10">
-                            <div class="checkbox">
-                                <label>
-                                <input type="checkbox"> Remember me
-                                </label>
+                    <ul class="dropdown-menu" role="menu">
+                        <form class="form-horizontal" method="POST" action="login_redir.php">
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-8 control-label">Gebruikers naam</label>
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    <input type="text" class="form-control" id="inputEmail3" name="username" placeholder="username" required>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-7 col-sm-10">
-                        <button type="submit" class="btn btn-default">Login</button>
-                        </div>
-                    </div>
-                </form>
-            </ul>
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-8 control-label">Wachtwoord</label>
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-1 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                        <input type="checkbox"> Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-7 col-sm-10">
+                                <button type="submit" class="btn btn-default">Login</button>
+                                </div>
+                            </div>
+                        </form>
+                    </ul>
             </li>
         <?php endif ?>
-        <?php if (!empty($_SESSION['user_id'])): ?>                    
+        <?php if (Auth::logged()): ?>                    
             <li>
                 <a href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/logout_redir.php"' ?>>Log uit!</a>
             </li>
