@@ -5,7 +5,7 @@
 	margin: 0 0 0 -30px;
 }
 .secondLi {
-	margin: 10px 0 10px 0px;
+	margin: 10px 0 10px -0px;
 	border: solid 1px #BBB;
 	height: 40px;
 	width: 160px;
@@ -15,6 +15,19 @@
 	color: #000;
 	list-style: none;	
 }
+#collapseExample {
+	width: 250px;
+}
 div.col-sm-6:nth-child(3) > ul:nth-child(2) > iframe:nth-child(6) {
 	margin: 0 0 0 -60px;
+}
+
+#carousel-example-generic{
+	width: 320px;
+margin: 0 0 0 -45px;
+height: 100%;
+}
+.carousel-inner, 
+.slide-image{
+	height: 200px!important;;
 }
