@@ -46,7 +46,7 @@
         <ul class="nav navbar-nav navbar-right">
             <li><a  style="text-align: center!important;"href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/contact.php'?> class="<?php echo $contact; ?>">Contact</a></li>
 
-         <?php if (empty($_SESSION['user_id'])): ?>
+         <?php if (empty($_SESSION['Auth']['ID'])): ?>
             <li class="dropdown">
             <a style="text-align: center!important;"href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Login <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
@@ -81,7 +81,7 @@
                     </ul>
             </li>
         <?php endif ?>
-        <?php if (!empty($_SESSION['user_id'])): ?>                    
+        <?php if (!empty($_SESSION['Auth']['ID'])): ?>                    
             <li>
                 <a style="text-align: center!important;"href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/logout_redir.php"' ?>>Log uit!</a>
             </li>
