@@ -45,7 +45,10 @@ class Auth {
 			//
 			$_SESSION['Auth']['ID'] 		= $data['idUser'];
 			$_SESSION['Auth']['Username'] 	= $data['Name'];
-			$_SESSION['Auth']['Userlevel'] 	= $data['Userlevel'];
+			$_SESSION['Auth']['Userlevel'] 	= 0;
+			$data2 = db::select('Userlevel', 'Userlevel', 'idUserlevel = :idul', ['idul' => $data['Userlevel']]);
+			if ($data2 != false)
+				$_SESSION['Auth']['Userlevel'] = $data2[0];
 			$_SESSION['Auth']['Email'] 		= $data['E-Mail'];
 			$_SESSION['Auth']['PaymentID'] 	= $data['Paymentid'];
 			header('Location: http://'.$_SERVER['SERVER_NAME'].'/webshopping/');
