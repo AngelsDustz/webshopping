@@ -73,8 +73,11 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-offset-7 col-sm-10">
-                                <button type="submit" class="btn btn-default">Login</button>
+                                <div class=" col-sm-4 col-sm-offset-1">
+                                    <a class="btn btn-default" href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/registreren.php"' ?>>Registreren</a>
+                                </div>
+                                <div class=" col-sm-4 col-sm-offset-2">
+                                    <button type="submit" class="btn btn-default">Login</button>
                                 </div>
                             </div>
                         </form>
@@ -83,19 +86,12 @@
         <?php endif ?>
         <?php if (!empty($_SESSION['Auth']['ID'])): ?>                    
             <li>
-                <a style="text-align: center!important;"href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/logout_redir.php"' ?>>Log uit!</a>
+                <a href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/logout_redir.php"' ?>>Log uit!</a>
             </li>
         <?php endif ?>
-  
-            <li class="dropdown hidden-xs">
-            <a style="text-align: center!important;"href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
-                <ul class="dropdownWinkel dropdown-menu" role="menu">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, voluptate nihil molestias est nulla vero. Molestiae esse aliquid, modi repudiandae voluptas excepturi debitis hic mollitia earum laudantium odit suscipit, cumque.</p>
-                </ul>
-            </li>
-            <li class="visible-xs">
-               <a style="text-align: center!important;"href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/winkel.php'?> id="animated-example" class="animated bounceInLeft">Winkelmandje <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/winkelwagen.png'?>></a>
-            </li> 
+        <?php @include "../webshopping/resources/salesmenu.php" ?>
+        <?php @include "/resources/salesmenu.php" ?>
+            
         </ul>
     </div><!--/.nav-collapse -->
 </div>
