@@ -5,7 +5,7 @@ include_once('../libs/admin/admin_lib.php');
 if (isset($_GET['product_naam']) && !empty($_GET['product_naam'])){
 	//
 	admin::productAdd($_GET['product_naam'], $_GET['product_description'], $_GET['product_prijs']);
-	header('Location: ?fn=pr-toevoegen');
+	header('Location: ?fn=account&action=0');
 }
 
 ?>
@@ -16,7 +16,7 @@ if (isset($_GET['product_naam']) && !empty($_GET['product_naam'])){
 	</div>
 
 	<form method="GET" action="?">
-		<input type="hidden" name="fn" value="pr-toevoegen">
+		<input type="hidden" name="fn" value="toevoegen">
 		<table>
 			<tr>
 				<td>Product Naam</td>

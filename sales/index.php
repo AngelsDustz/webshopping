@@ -2,7 +2,7 @@
 @session_start();
 include_once('../libs/auth.php');
 
-if (Auth::logged() && Auth::level(5)){
+if (Auth::logged() && Auth::level(10)){
 	//
 	include('main.php');
 } else {

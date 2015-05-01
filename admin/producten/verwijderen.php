@@ -4,7 +4,7 @@ include_once('../libs/admin/product.php');
 if (isset($_GET['product_id']) && !empty($_GET['product_id'])){
 	//
 	product::remove($_GET['product_id']);
-	header('Location: ?fn=pr-verwijderen');
+	header('Location: ?fn=producten?action=1');
 }
 ?>
 <div id="function">
@@ -13,7 +13,7 @@ if (isset($_GET['product_id']) && !empty($_GET['product_id'])){
 	</div>
 
 	<form method="GET" action="">
-	<input type="hidden" name="fn" value="pr-verwijderen">
+	<input type="hidden" name="fn" value="verwijderen">
 		<table>
 			<tr>
 				<td>

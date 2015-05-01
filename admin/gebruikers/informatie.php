@@ -7,7 +7,8 @@
 	
 		<form method="GET">
 			<input type="number" name="userid" value=<?php echo (isset($_GET['userid']))? $_GET['userid'] : '' ?> > <input type="submit" value="go">
-			<input type="hidden" name="fn" value="geb-informatie">
+			<input type="hidden" name="fn" value="account">
+			<input type="hidden" name="action" value="0">
 		</form>
 
 		<table>
