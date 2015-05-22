@@ -26,11 +26,12 @@
 		            <div class="col-md-9">
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
+                            <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen/product1.php' ?>>
                                 <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/img/geheugen/product1.png' ?> style=" height: 100px;" alt="">
                                 <div class="caption">
                                     <h4 class="pull-right">€33,49</h4>
-                                    <h4><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen/product1.php' ?>>>G.Skill 4 GB DDR3-1600</a>
-                                    </h4>
+                                    <h4>G.Skill 4 GB DDR3-1600</h4>
+                            </a>    
                                     <p>Deze geheugenmodule heeft een capaciteit van 4 GB (één module van 4 GB) en is geschikt voor systemen met een DDR3 geheugenbus van 1600 MHz.</p>
                                 </div>
                                 <div class="ratings">
