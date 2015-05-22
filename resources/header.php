@@ -24,7 +24,13 @@
             break;
     }
 
+    if (isset($_GET['accept-cookies'])) {
+        setcookie('accept-cookies', 'true, time() + 31556925');
+        header('location: ./');
+    }
+
 ?>
+
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 <div class="container">
     <div class="navbar-header">
@@ -84,6 +90,7 @@
                     </ul>
             </li>
         <?php endif ?>
+        <!-- Hier komt een check of er ingelogd is zo ja met welk level en als die hoger als level 10 is laad die sales/admin panel zien  -->
         <?php if (!empty($_SESSION['Auth']['ID'])): ?>                    
             <li>
                 <a href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/logout_redir.php"' ?>>Log uit!</a>

@@ -15,6 +15,7 @@
     <script src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/libs/bootstrap.min.js'?>> </script>
     
     <!-- Custom JavaScript -->
+	<script src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/libs/main.js'?>> </script>
 
 	<!-- Fonts -->
 	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/fonts/glyphicons-halflings-regular.ttf' ?>			rel="stylesheet" media="screen">
