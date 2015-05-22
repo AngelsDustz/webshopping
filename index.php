@@ -5,7 +5,7 @@
 <?php include 'resources/head.php'; ?>
 
 <body>
-<?php
+	<?php
 		if(!isset($_COOKIE['accept-cookies'])) {
 		?>
 			<div class="cookie-banner">
@@ -15,9 +15,9 @@
 					<a href="?accept-cookies" class="button">Ok, ga veder!</a>				
 				</div>
 			</div>
-		<?php
+	<?php
 		}
-		?>
+	?>
 <?php include 'resources/header.php'; ?>
 
     <div class="container content">
