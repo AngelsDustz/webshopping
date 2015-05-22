@@ -7,7 +7,6 @@
 }
 @media (min-width: 800px) {
 	nav .navbar-right li,
-	nav .navbar-right a,
 	nav .navbar-right img {
 		height: 50px;
 	}

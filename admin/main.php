@@ -47,7 +47,7 @@ if ($_GET['fn'] == 'toevoegen'){
 
 ?>
 <html lang="nl">
-	<?php include('../resources/head.php'); ?>
+
 	<link rel="stylesheet" type="text/css" href=<?php echo 'http://'.$_SERVER['HTTP_HOST'].'/webshopping/css/admin/main.css'?> >
 	<body>
 		<div id="admin-panel">

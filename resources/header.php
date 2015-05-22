@@ -56,7 +56,7 @@
             <li class="dropdown">
             <a style="text-align: center!important;"href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Login <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <form class="form-horizontal" method="POST" action="login_redir.php">
+                        <form class="form-horizontal" method="POST" action=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/login_redir.php"' ?>>
                             <div class="form-group">
                                 <label for="inputEmail3" class="col-sm-8 control-label">Gebruikers naam</label>
                                 <div class="col-sm-10 col-sm-offset-1">
