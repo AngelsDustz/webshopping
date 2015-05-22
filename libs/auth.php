@@ -108,4 +108,23 @@ class Auth {
 
 		return false;
 	}
+
+	/*
+		Name: register
+		Params: string name, string password, string email
+		Description:
+			Registreer de gebruiker.
+	*/
+	public function register($name, $password){
+		//
+		$name = db::select('Name', 'Users', 'Name = :a', ['a' => $name]);
+		if ($name != false){
+			echo "<h1>De naam is al in gebruik!</h1>";return false;
+		}
+
+		db::insert('Users', 'Name,Pass,Userlevel', ':a,:b,4', ['a' => $name, 'b' => $password]);
+		$data = db::select('*', 'Users', 'Name = :a AND Pass = :b', ['a' => $name, 'b' => $password]);
+		if ($data == false)
+			echo '<h1>Er is iets fout gegaan probeer het later nog eens.</h1>';
+	}
 }
