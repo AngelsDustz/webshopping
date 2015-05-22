@@ -12,7 +12,7 @@
     		<div class="row">
 	            <div class="col-md-12">
 		        
-		<form role="form">
+		<form role="form" action="registreren.php" method="POST">
 			<h2>Registeer nu <small>Het is gratis.</small></h2>
 			<hr class="colorgraph">
 			<div class="row">
@@ -84,7 +84,11 @@
         </div>
     </div>
 
-    
+    <?php
+    	if (!empty($_POST)){
+    		Auth::register($_POST['name'], $_POST['password']);
+    	}
+    ?>
 
 <?php include 'resources/footer.php'; ?>
 
