@@ -1,3 +1,9 @@
+a.btn {
+	float: right;
+width: 200px;
+height: 50px;
+}
+
 .index {
 	margin: 10px auto;
 }
