@@ -32,6 +32,7 @@ class Products {
 		                                    </h4>
 		                                    <p>".$product[1]."</p>
 		                                </div>
+		                                <div><a class='btn btn-default' href='/webshopping/winkel.php'>Toevoegen</a></div>
 		                                <div class='ratings'>
 		                                    <p>
 		                                        <span class='glyphicon glyphicon-star'></span>
