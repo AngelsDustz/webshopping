@@ -1,4 +1,4 @@
-a.btn {
+.dropdown  .btn-info {
 	float: right;
 width: 200px;
 height: 50px;
@@ -24,6 +24,11 @@ height: 50px;
 #collapseExample {
 	width: 250px;
 }
+iframe {
+	margin: 0 0 0 -35px;
+	width: 300px!important;
+	height: 300px;
+}
 div.col-sm-6:nth-child(3) > ul:nth-child(2) > iframe:nth-child(6) {
 	margin: 0 0 0 -60px;
 }
@@ -36,4 +41,11 @@ height: 100%;
 .carousel-inner, 
 .slide-image{
 	height: 200px!important;;
+}
+.cookie-banner .container {
+	width: 100%;
+}
+.overPersoon {
+	float: none;
+	margin: 0px;
 }

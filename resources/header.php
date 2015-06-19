@@ -59,18 +59,18 @@
                         <form class="form-horizontal" method="POST" action=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/login_redir.php"' ?>>
                             <div class="form-group">
                                 <label for="inputEmail3" class="col-xs-6 col-sm-8 col-xs-offset-3 col-sm-offset-1 control-label">Gebruikers naam</label>
-                                <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                                <div class="col-xs-11 col-sm-10 col-sm-offset-1 col-xs-offset-1">
                                     <input type="text" class="form-control" id="inputEmail3" name="username" placeholder="username" required>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputPassword3" class="col-xs-6 col-sm-8 col-xs-offset-3 col-sm-offset-1 control-label">Wachtwoord</label>
-                                <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                                <div class="col-xs-11 col-sm-10 col-sm-offset-1 col-xs-offset-1">
                                     <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password" required>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-offset-1 col-sm-10">
+                                <div class="col-sm-offset-1 col-sm-10 col-xs-11 col-xs-offset-1">
                                     <div class="checkbox">
                                         <label>
                                         <input type="checkbox"> Remember me
@@ -79,11 +79,11 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class=" col-xs-12 col-sm-4 col-sm-offset-1">
-                                    <a class="btn btn-default" href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/registreren.php"' ?>>Registreren</a>
+                                <div class=" col-xs-10 col-sm-4 col-sm-offset-1 col-xs-offset-1">
+                                    <a class="btn btn-info" href=<?php echo '"'.'http://'.$_SERVER['SERVER_NAME'].'/webshopping/registreren.php"' ?>>Registreren</a>
                                 </div>
-                                <div class=" col-xs-12 col-sm-4 col-sm-offset-2">
-                                    <button type="submit" class="btn btn-default">Login</button>
+                                <div class=" col-xs-10 col-sm-4 col-sm-offset-2 col-xs-offset-1">
+                                    <button type="submit" class="btn btn-success">Login</button>
                                 </div>
                             </div>
                         </form>

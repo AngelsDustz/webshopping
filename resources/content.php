@@ -1,9 +1,9 @@
 <div class="container-fluid">
     <div class="row">
-        
-        <?php include 'resources/sidemenu.php'; ?>
-
-        <div class="col-md-10">
+        <div class="col-xs-12 col-md-2">
+            <?php include 'resources/sidemenu.php'; ?>
+        </div>
+        <div class="col-xs-12 col-md-10">
             <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
                 <div class="row carousel-holder">
                     <div class="col-sm-12 col-lg-12 col-md-12">
@@ -45,7 +45,7 @@
 
             <div class="col-md-8">
                 <div class="row">
-                    <div class="col-xs-7 col-sm-4 col-lg-4 col-md-6">
+                    <div class="col-xs-12 col-sm-4 col-lg-4 col-md-6">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/geheugen.php' ?> class="thumbnail index">
                         <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                             <div class="flipper">
@@ -63,7 +63,7 @@
                         </a>
                     </div>
                     
-                    <div class="col-xs-7 col-sm-4 col-lg-4 col-md-6">
+                    <div class="col-xs-12 col-sm-4 col-lg-4 col-md-6">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/behuizing.php' ?> class="thumbnail index">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
@@ -79,7 +79,7 @@
                             </a>
                     </div>
 
-                    <div class="col-xs-7 col-sm-4 col-lg-4 col-md-6">
+                    <div class="col-xs-12 col-sm-4 col-lg-4 col-md-6">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/fans.php' ?> class="thumbnail index">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
@@ -95,7 +95,7 @@
                         </a>
                     </div>
 
-                    <div class="col-xs-7 col-sm-4 col-lg-4 col-md-6">
+                    <div class="col-xs-12 col-sm-4 col-lg-4 col-md-6">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/controllers.php' ?> class="thumbnail index">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
@@ -111,7 +111,7 @@
                         </a>
                     </div>
 
-                    <div class="col-xs-7 col-sm-4 col-lg-4 col-md-6">
+                    <div class="col-xs-12 col-sm-4 col-lg-4 col-md-6">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/videokaarten.php' ?> class="thumbnail index">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
@@ -127,7 +127,7 @@
                         </a>
                     </div>
 
-                    <div class="col-xs-7 col-sm-4 col-lg-4 col-md-6">
+                    <div class="col-xs-12 col-sm-4 col-lg-4 col-md-6">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/voeding.php' ?> class="thumbnail index">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
@@ -143,7 +143,7 @@
                         </a>
                     </div>
 
-                    <div class="col-xs-7 col-sm-4 col-lg-4 col-md-6">
+                    <div class="col-xs-12 col-sm-4 col-lg-4 col-md-6">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/moederbord.php' ?> class="thumbnail index">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
@@ -159,7 +159,7 @@
                         </a>
                     </div>
 
-                    <div class="col-xs-7 col-sm-4 col-lg-4 col-md-6">
+                    <div class="col-xs-12 col-sm-4 col-lg-4 col-md-6">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/hardeschrijf.php' ?> class="thumbnail index">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
@@ -175,7 +175,7 @@
                         </a>
                     </div>
 
-                    <div class="col-xs-7 col-sm-4 col-lg-4 col-md-6">
+                    <div class="col-xs-12 col-sm-4 col-lg-4 col-md-6">
                         <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/webshopping/producten/ssd.php' ?> class="thumbnail index">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
                                 <div class="flipper">
