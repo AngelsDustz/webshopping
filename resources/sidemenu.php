@@ -23,7 +23,7 @@
 		</ul>
 	</div>
 </div>
-<div class="col-md-12 hidden-lg">
+<div class="col-xs-12 hidden-lg">
 	<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
 	  Show categorieën
 	</a>

@@ -10,7 +10,7 @@ if (Auth::logged() && Auth::level(10)){
 } else {
 	echo '        
            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"></span> 7 - Items<span class="caret"></span></a>
+            <a style="text-align: center!important;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"></span> 7 - Items<span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
                 <form>
                 <div class="form-group">

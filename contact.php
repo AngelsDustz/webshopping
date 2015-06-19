@@ -13,7 +13,7 @@
 
                 <div class="col-md-12 col-lg-6">
 
-                    <div class="col-md-6 col-lg-12">
+                    <div class="col-xs-12 col-md-6 col-lg-12">
                         <h1>Openingstijden</h1>
                         <hr>
                         <ul>
@@ -28,7 +28,7 @@
                         </ul>
                     </div>
                     
-                    <div class="col-md-6 col-lg-12">
+                    <div class="col-xs-12 col-md-6 col-lg-12">
                         <h1>Waar zijn wij te vinden?</h1>
                         <hr>
                         <ul>
@@ -41,28 +41,34 @@
                 </div>
                 <div class="col-md-12 col-lg-6">
 
-                    <div class="col-md-6 col-lg-12">
+                    <div class="col-xs-12 col-md-6 col-lg-12">
                         <h1>Over webshopping</h1>
                         <hr>
                         <p>Hallo, wij zijn <strong>Johan, Berwout en Klaasjan</strong></p>
                         <p>Wij zijn webshopping begonnen voor .... om de verkopen ook online te doen, met een verfrissend tintje.</p>
                     </div>
                    
-                    <div class="col-md-6 col-lg-12">
+                    <div class="col-xs-12 col-md-6 col-lg-12">
                         <h1>Hoofdschotjes</h1>
                         <hr>
-                        <div class="col-md-12">
-                            <label><img src="img/johan.jpg" alt="Johan" class="img-circle" style="height:100px;"><p>Johan Vlaar</p></label>
-                            <p class="overPersoon"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus eius odit, corporis ex unde ipsam consequatur sit numquam error vel facere, nesciunt, sapiente odio non placeat accusamus repellat hic dolorem.</p>
-                        </div>
-                        <div class="col-md-12">    
-                            <label><img src="img/berwout.jpg" alt="Berwout" class="img-circle" style="height:100px;"><p>Berwout Kruit</p> </label>
-                            <p class="overPersoon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore mollitia placeat facilis blanditiis, debitis perferendis deserunt nihil doloribus repudiandae praesentium veniam, iusto non et sed commodi obcaecati. Ipsam natus, perspiciatis!</p>
-                        </div>
-                        <div class="col-md-12">    
-                            <label><img src="img/klaasjan.jpg" alt="Klaasjan" class="img-circle" style="height:100px;"> <p>Klaasjan Oosterveld</p> </label>
-                            <p class="overPersoon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nemo molestias ut perferendis quo modi cupiditate est consectetur voluptate voluptatem tenetur officiis ad at, sapiente dignissimos harum, ullam dicta quas!</p>
-                        </div>
+                       <div class="col-xs-12">
+                                <img src="img/johan.jpg" alt="Johan" class="img-circle" style="height:100px;"><p>Johan Vlaar</p></label>
+                            </div>
+                            <div class="col-xs-12">
+                                <p class="overPersoon"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus eius odit, corporis ex unde ipsam consequatur sit numquam error vel facere, nesciunt, sapiente odio non placeat accusamus repellat hic dolorem.</p>
+                            </div>
+                            <div class="col-xs-12">
+                                <img src="img/berwout.jpg" alt="Johan" class="img-circle" style="height:100px;"><p>Berwout Kruit</p></label>
+                            </div>
+                            <div class="col-xs-12">
+                                <p class="overPersoon"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus eius odit, corporis ex unde ipsam consequatur sit numquam error vel facere, nesciunt, sapiente odio non placeat accusamus repellat hic dolorem.</p>
+                            </div>
+                            <div class="col-xs-12">
+                                <img src="img/klaasjan.jpg" alt="Johan" class="img-circle" style="height:100px;"><p>Klaasjan Oosterveld</p></label>
+                            </div>
+                            <div class="col-xs-12">
+                                <p class="overPersoon"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus eius odit, corporis ex unde ipsam consequatur sit numquam error vel facere, nesciunt, sapiente odio non placeat accusamus repellat hic dolorem.</p>
+                            </div>
                     </div>
                 </div>
 

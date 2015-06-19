@@ -24,7 +24,7 @@
 		            <div class="col-md-3">
 		              <?php include '../resources/sidemenu.php'; ?>
 		            </div>
-		            <div class="col-md-9">
+		            <div class="col-md-9 content">
                         <?php Products::make(4); ?>
 		            </div>	
 	            </div>
